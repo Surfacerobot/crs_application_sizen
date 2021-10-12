@@ -1,0 +1,253 @@
+- process_type:
+    val: "\x00"
+  header:
+    stamp:
+      nsec: 0
+      sec: 0
+    frame_id: ""
+    seq: 0
+  paths:
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - position:
+            x: 0.0800817608833313
+            y: -0.3157781362533569
+            z: -0.006951630115509033
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.001160144805908203
+            y: -0.2371270656585693
+            z: 0.01262468099594116
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.03818225860595703
+            y: -0.136259913444519
+            z: 0.02565503120422363
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.06040453910827637
+            y: -0.05405271053314209
+            z: 0.03092056512832642
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.07654476165771484
+            y: 0.003879547119140625
+            z: 0.03081631660461426
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.07397037744522095
+            y: 0.08935773372650146
+            z: 0.02636498212814331
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.03322571516036987
+            y: 0.1731905937194824
+            z: 0.02235555648803711
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.003350198268890381
+            y: 0.2648290395736694
+            z: 0.008546352386474609
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.06121677160263062
+            y: 0.3300891220569611
+            z: -0.003279983997344971
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - position:
+            x: 0.0800817608833313
+            y: -0.3157781362533569
+            z: -0.006951630115509033
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.001160144805908203
+            y: -0.2371270656585693
+            z: 0.01262468099594116
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.03818225860595703
+            y: -0.136259913444519
+            z: 0.02565503120422363
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.06040453910827637
+            y: -0.05405271053314209
+            z: 0.03092056512832642
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.07654476165771484
+            y: 0.003879547119140625
+            z: 0.03081631660461426
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.07397037744522095
+            y: 0.08935773372650146
+            z: 0.02636498212814331
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.03322571516036987
+            y: 0.1731905937194824
+            z: 0.02235555648803711
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.003350198268890381
+            y: 0.2648290395736694
+            z: 0.008546352386474609
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.06121677160263062
+            y: 0.3300891220569611
+            z: -0.003279983997344971
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+  dwell_time: 0
+  tool_offset:
+    position:
+      x: 0
+      y: 0
+      z: 0
+    orientation:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+  params:
+    config:
+      surface_walk_generator:
+        point_spacing: 0.1
+        raster_spacing: 0.2
+        tool_offset: 0
+        intersection_plane_height: 0.05
+        min_hole_size: 0.2
+        min_segment_size: 0.5
+        raster_rot_offset: 0
+        generate_extra_rasters: "\x00"
+        cut_direction:
+          x: 0
+          y: 0
+          z: 0
+      plane_slicer_generator:
+        raster_spacing: 0
+        point_spacing: 0
+        raster_rot_offset: 0
+        min_segment_size: 0
+        min_hole_size: 0
+        tool_offset: 0
+        raster_wrt_global_axes: "\x00"
+        raster_direction:
+          x: 0
+          y: 0
+          z: 0
+      heat_generator:
+        point_spacing: 0
+        raster_spacing: 0
+        tool_offset: 0
+        min_hole_size: 0
+        min_segment_size: 0
+        raster_rot_offset: 0
+        generate_extra_rasters: "\x00"
+      eigen_value_generator:
+        octree_res: 0
+        search_radius: 0
+        num_threads: 0
+        neighbor_tol: 0
+        voxel_size: 0
+        edge_cluster_min: 0
+        kdtree_epsilon: 0
+        min_projection_dist: 0
+        max_intersecting_voxels: 0
+        merge_dist: 0
+        max_segment_length: 0
+      half_edge_generator:
+        min_num_points: 0
+        normal_averaging: "\x00"
+        normal_search_radius: 0
+        normal_influence_weight: 0
+        point_spacing_method: 0
+        point_dist: 0
+        max_segment_length: 0
+    curvature_threshold: 0.05
+    min_polygons_per_cluster: 500

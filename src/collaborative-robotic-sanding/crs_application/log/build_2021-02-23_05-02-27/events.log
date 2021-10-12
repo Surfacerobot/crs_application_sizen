@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (crs_application) JobQueued: {'identifier': 'crs_application', 'dependencies': OrderedDict()}
+[0.000950] (crs_application) JobStarted: {'identifier': 'crs_application'}
+[0.010408] (crs_application) JobProgress: {'identifier': 'crs_application', 'progress': 'cmake'}
+[0.010631] (crs_application) Command: {'cmd': ['/usr/bin/cmake', '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application', '-DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application'], 'cwd': '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'bcd9c7135e88'), ('LD_LIBRARY_PATH', '/root/crs_ws_fanuc/install/lib:/root/crs_ws_fanuc/devel/lib:/opt/ros/melodic/lib:/opt/qt513/plugins:/opt/qt513/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/crs_ws_fanuc/src/collaborative-robotic-sanding'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/root/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/crs_ws_fanuc/install/lib/pkgconfig:/root/crs_ws_fanuc/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/crs_ws_fanuc/install/bin:/root/crs_ws_fanuc/devel/bin:/opt/ros/melodic/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'unix:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application'), ('PYTHONPATH', '/root/crs_ws_fanuc/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent:/root/crs_ws_fanuc/install:/root/crs_ws_fanuc/devel:/opt/ros/melodic:/opt/qt513/lib/cmake')]), 'shell': False}
+[0.100136] (-) TimerEvent: {}
+[0.138308] (crs_application) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.200251] (-) TimerEvent: {}
+[0.223523] (crs_application) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.227323] (crs_application) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300377] (-) TimerEvent: {}
+[0.303214] (crs_application) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.303787] (crs_application) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.366541] (crs_application) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.370900] (crs_application) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.400471] (-) TimerEvent: {}
+[0.500755] (-) TimerEvent: {}
+[0.590114] (crs_application) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.592776] (crs_application) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600872] (-) TimerEvent: {}
+[0.686773] (crs_application) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.687337] (crs_application) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700999] (-) TimerEvent: {}
+[0.764044] (crs_application) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.768580] (crs_application) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.801124] (-) TimerEvent: {}
+[0.901386] (-) TimerEvent: {}
+[1.001716] (-) TimerEvent: {}
+[1.100295] (crs_application) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.101815] (-) TimerEvent: {}
+[1.145702] (crs_application) StdoutLine: {'line': b'-- Boost version: 1.65.1\n'}
+[1.145877] (crs_application) StdoutLine: {'line': b'-- Found the following Boost libraries:\n'}
+[1.145971] (crs_application) StdoutLine: {'line': b'--   system\n'}
+[1.146060] (crs_application) StdoutLine: {'line': b'--   filesystem\n'}
+[1.158735] (crs_application) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[1.186862] (crs_application) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.187094] (crs_application) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.201933] (-) TimerEvent: {}
+[1.302178] (-) TimerEvent: {}
+[1.402546] (-) TimerEvent: {}
+[1.445377] (crs_application) StdoutLine: {'line': b'-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.502738] (-) TimerEvent: {}
+[1.567489] (crs_application) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.602813] (-) TimerEvent: {}
+[1.654214] (crs_application) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.655239] (crs_application) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.655878] (crs_application) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.702904] (-) TimerEvent: {}
+[1.709185] (crs_application) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.709438] (crs_application) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.772304] (crs_application) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.772556] (crs_application) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.803027] (-) TimerEvent: {}
+[1.826069] (crs_application) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.826266] (crs_application) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.889625] (crs_application) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.890531] (crs_application) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903096] (-) TimerEvent: {}
+[2.003358] (-) TimerEvent: {}
+[2.008498] (crs_application) StdoutLine: {'line': b'-- Found rclcpp_components: 0.8.5 (/opt/ros/eloquent/share/rclcpp_components/cmake)\n'}
+[2.020532] (crs_application) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)\n'}
+[2.059221] (crs_application) StderrLine: {'line': b'CMake Error at CMakeLists.txt:24 (find_package):\n'}
+[2.059401] (crs_application) StderrLine: {'line': b'  By not providing "Findcrs_msgs.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.059494] (crs_application) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "crs_msgs",\n'}
+[2.059573] (crs_application) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[2.059648] (crs_application) StderrLine: {'line': b'\n'}
+[2.059723] (crs_application) StderrLine: {'line': b'  Could not find a package configuration file provided by "crs_msgs" with any\n'}
+[2.059796] (crs_application) StderrLine: {'line': b'  of the following names:\n'}
+[2.059871] (crs_application) StderrLine: {'line': b'\n'}
+[2.059944] (crs_application) StderrLine: {'line': b'    crs_msgsConfig.cmake\n'}
+[2.060018] (crs_application) StderrLine: {'line': b'    crs_msgs-config.cmake\n'}
+[2.060096] (crs_application) StderrLine: {'line': b'\n'}
+[2.060223] (crs_application) StderrLine: {'line': b'  Add the installation prefix of "crs_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[2.060302] (crs_application) StderrLine: {'line': b'  "crs_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[2.060375] (crs_application) StderrLine: {'line': b'  "crs_msgs" provides a separate development package or SDK, be sure it has\n'}
+[2.060449] (crs_application) StderrLine: {'line': b'  been installed.\n'}
+[2.060523] (crs_application) StderrLine: {'line': b'\n'}
+[2.060595] (crs_application) StderrLine: {'line': b'\n'}
+[2.060670] (crs_application) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.060763] (crs_application) StdoutLine: {'line': b'See also "/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application/CMakeFiles/CMakeOutput.log".\n'}
+[2.060844] (crs_application) StdoutLine: {'line': b'See also "/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application/CMakeFiles/CMakeError.log".\n'}
+[2.063970] (crs_application) CommandEnded: {'returncode': 1}
+[2.103638] (-) TimerEvent: {}
+[2.124384] (crs_application) JobEnded: {'identifier': 'crs_application', 'rc': 1}
+[2.135142] (-) EventReactorShutdown: {}

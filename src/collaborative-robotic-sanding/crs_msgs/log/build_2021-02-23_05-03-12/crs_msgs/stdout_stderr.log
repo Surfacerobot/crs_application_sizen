@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/eloquent/include  
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found builtin_interfaces: 0.8.0 (/opt/ros/eloquent/share/builtin_interfaces/cmake)
+-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 0.8.1 (/opt/ros/eloquent/share/trajectory_msgs/cmake)
+CMake Error at CMakeLists.txt:34 (find_package):
+  By not providing "Findcartesian_trajectory_msgs.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "cartesian_trajectory_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "cartesian_trajectory_msgs" with any of the following names:
+
+    cartesian_trajectory_msgsConfig.cmake
+    cartesian_trajectory_msgs-config.cmake
+
+  Add the installation prefix of "cartesian_trajectory_msgs" to
+  CMAKE_PREFIX_PATH or set "cartesian_trajectory_msgs_DIR" to a directory
+  containing one of the above files.  If "cartesian_trajectory_msgs" provides
+  a separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/build/crs_msgs/CMakeFiles/CMakeOutput.log".

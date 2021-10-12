@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>
+
+<node name="joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>
+<!--    <node pkg="crs_utils_py" exec="joint_state_publisher" name="/joint_state_publisher" />-->
+<!--<node name="robot_state_publisher" exec="robot_state_publisher" pkg="robot_state_publisher" />-->
+
+<node pkg="robot_state_publisher" exec="robot_state_publisher" name="/robot_state_publisher" namespace=""
+  args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf"/>
+
+<!--<node pkg="crs_utils_py" exec="joint_state_publisher" name="/joint_state_publisher" namespace=""
+        output="screen">
+        <param name="joint_names"
+                value="joint_1, joint_2,joint_3,joint_4,joint_5,joint_6"
+                value-sep=", "/>
+                <param name="joint_init_vals" value="'0.0', '0.0', '0.0', '0.0', '0.0', '0.0'" value-sep=", " />
+                <param name="src_topics" value="input_joints" value-sep=", "/>
+        </node>-->
+
+<let name="rviz_config" value="$(find-pkg-share crs_application)/resources/urdftorviz.rviz"/>
+<node pkg="rviz2" exec="rviz2"  launch-prefix="xterm -e" args="-d $(var rviz_config) --ros-args --log-level INFO"
+        output="screen">
+       <!-- <param name="default_config_file" value="$(find-pkg-share crs_application)/config/crs.yaml"/>
+        <param name="database_dir" value="$(var database_dir)"/>-->
+ </node>
+</launch>

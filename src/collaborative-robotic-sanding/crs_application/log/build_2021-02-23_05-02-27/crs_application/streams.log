@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application': CMAKE_PREFIX_PATH=/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application
+[0.137s] -- The C compiler identification is GNU 7.5.0
+[0.222s] -- The CXX compiler identification is GNU 7.5.0
+[0.226s] -- Check for working C compiler: /usr/bin/cc
+[0.302s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.303s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.370s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++
+[0.686s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.686s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Detecting CXX compile features
+[1.099s] -- Detecting CXX compile features - done
+[1.144s] -- Boost version: 1.65.1
+[1.145s] -- Found the following Boost libraries:
+[1.145s] --   system
+[1.145s] --   filesystem
+[1.158s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.186s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.444s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.566s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.653s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.655s] -- Looking for pthread.h
+[1.708s] -- Looking for pthread.h - found
+[1.708s] -- Looking for pthread_create
+[1.771s] -- Looking for pthread_create - not found
+[1.771s] -- Looking for pthread_create in pthreads
+[1.825s] -- Looking for pthread_create in pthreads - not found
+[1.825s] -- Looking for pthread_create in pthread
+[1.888s] -- Looking for pthread_create in pthread - found
+[1.889s] -- Found Threads: TRUE  
+[2.007s] -- Found rclcpp_components: 0.8.5 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+[2.019s] -- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+[2.058s] CMake Error at CMakeLists.txt:24 (find_package):
+[2.058s]   By not providing "Findcrs_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[2.058s]   asked CMake to find a package configuration file provided by "crs_msgs",
+[2.058s]   but CMake did not find one.
+[2.058s] 
+[2.058s]   Could not find a package configuration file provided by "crs_msgs" with any
+[2.058s]   of the following names:
+[2.059s] 
+[2.059s]     crs_msgsConfig.cmake
+[2.059s]     crs_msgs-config.cmake
+[2.059s] 
+[2.059s]   Add the installation prefix of "crs_msgs" to CMAKE_PREFIX_PATH or set
+[2.059s]   "crs_msgs_DIR" to a directory containing one of the above files.  If
+[2.059s]   "crs_msgs" provides a separate development package or SDK, be sure it has
+[2.059s]   been installed.
+[2.059s] 
+[2.059s] 
+[2.059s] -- Configuring incomplete, errors occurred!
+[2.059s] See also "/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application/CMakeFiles/CMakeOutput.log".
+[2.060s] See also "/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application/CMakeFiles/CMakeError.log".
+[2.063s] Invoked command in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application

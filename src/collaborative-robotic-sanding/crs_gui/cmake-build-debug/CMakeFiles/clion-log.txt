@@ -1,0 +1,449 @@
+/home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found pluginlib: 2.4.2 (/opt/ros/eloquent/share/pluginlib/cmake)
+-- Found tinyxml2_vendor:  (/opt/ros/eloquent/share/tinyxml2_vendor/cmake)
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+-- Found shape_msgs: 0.8.1 (/opt/ros/eloquent/share/shape_msgs/cmake)
+-- Found std_srvs: 0.8.1 (/opt/ros/eloquent/share/std_srvs/cmake)
+-- Found rviz2: 7.0.7 (/opt/ros/eloquent/share/rviz2/cmake)
+-- Found crs_area_selection: 0.1.0 (/home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.4
+-- Found Eigen: /usr/include/eigen3  
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.4)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- FLANN found (include: , lib: flann;flann_cpp)
+-- FLANN found (include: , lib: flann;flann_cpp)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.21
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:183 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:316 (find_openni)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:197 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:318 (find_openni2)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (ENSENSO)
+  does not match the name of the calling package (Ensenso).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindEnsenso.cmake:41 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:210 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:320 (find_ensenso)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found ENSENSO: /usr/lib/libNxLib64.so  
+-- Ensenso found (include: /opt/ensenso/development/c/include, lib: /usr/lib/libNxLib64.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:285 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:330 (find_libusb)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found libusb-1.0: /usr/include  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:183 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:316 (find_openni)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:197 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:318 (find_openni2)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (ENSENSO)
+  does not match the name of the calling package (Ensenso).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindEnsenso.cmake:41 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:210 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:320 (find_ensenso)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Ensenso found (include: /opt/ensenso/development/c/include, lib: /usr/lib/libNxLib64.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:607 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_2D: /usr/local/include/pcl-1.9  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:607 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_GEOMETRY: /usr/local/include/pcl-1.9  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+-- Found crs_motion_planning: 0.0.0 (/home/sizen/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+CMake Error at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:218 (message):
+  Could NOT find FastRTPS (missing: FastRTPS_INCLUDE_DIR FastRTPS_LIBRARIES)
+Call Stack (most recent call first):
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:582 (_FPHSA_FAILURE_MESSAGE)
+  /opt/ros/eloquent/share/fastrtps_cmake_module/cmake/Modules/FindFastRTPS.cmake:95 (find_package_handle_standard_args)
+  /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:7 (find_package)
+  /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:38 (include)
+  /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+  /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:38 (include)
+  /home/sizen/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/sizen/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/crs_motion_planningConfig.cmake:38 (include)
+  CMakeLists.txt:24 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/cmake-build-debug/CMakeFiles/CMakeError.log".

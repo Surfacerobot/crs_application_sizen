@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<launch>
+        <arg name="ns_arg" default="crs"/>
+  <arg name="sim" default="true"/>
+  <arg name="swri" default="false"/>
+  <arg name="camera" default="true"/>
+
+  <let name="state_machine_file" value="$(find-pkg-share crs_application)/resources/crs_process.scxml"/>
+  <let name="group_ns" value="$(var ns_arg)"/>
+  <let name="sim_robot" value="$(var sim)"/>
+  <let name="database_dir" value="$(env HOME)/crs_data"/>
+  <let name="at_swri" value="$(var swri)"/>
+  <let name="use_camera" value="$(var camera)"/>
+
+  <!-- Defining workcell specific variables -->
+  <let name="config_dir" value="$(find-pkg-share crs_application)/config/swri" if="$(var at_swri)"/>
+  <let name="config_dir" value="$(find-pkg-share crs_application)/config/main" unless="$(var at_swri)"/>
+
+<!--  <let name="xacro" value="$(find-pkg-share crs_support)/urdf/swri_demo.urdf.xacro" if="$(var at_swri)"/>-->
+<!--  <let name="xacro" value="$(find-pkg-share crs_support)/urdf/crs.urdf.xacro" unless="$(var at_swri)"/>-->
+  <let name="xacro" value="$(find-pkg-share fanuc_m20ia_support)/urdf/m20ia.xacro" unless="$(var at_swri)"/>
+
+  <!-- Defining workcell general variables -->
+<!--  <let name="srdf" value="$(find-pkg-share crs_support)/urdf/ur10e_robot.srdf"/>-->
+  <let name="srdf" value="$(find-pkg-share fanuc_m20ia_support)/urdf/fanuc_m20ia.srdf"/>
+  <let name="motion_planning_cfg" value="$(var config_dir)/motion_planning/fanuc_MP_config.yaml"/>
+  <let name="gazebo_world" value="$(find-pkg-share crs_support)/worlds/crs.world"/>
+  <let name="urdf_preview_path" value="$(find-pkg-share crs_support)/urdf/crs_preview.temp.urdf"/>
+
+        <group>
+                <push-ros-namespace namespace="$(var group_ns)"/>
+
+
+	<!-- modify by Sizen -->
+    <include file="$(find-pkg-share crs_application)/launch/load_fanuc_m20ia.launch.xml">
+    </include>
+
+   <include file="$(find-pkg-share crs_support)/launch/fanuc_m20ia_environment_launch.launch.py">
+      <arg name="sim_robot" value="$(var sim_robot)"/>
+      <arg name="xacro" value="$(var xacro)"/>
+      <arg name="srdf" value="$(var srdf)"/>
+      <arg name="motion_planning_cfg" value="$(var motion_planning_cfg)"/>
+      <arg name="gazebo_world" value="$(var gazebo_world)"/>
+      <arg name="urdf_preview_path" value="$(var urdf_preview_path)"/>
+    </include>
+
+                <node pkg="crs_application" exec="crs_application_node" name="crs_main" output="screen">
+                        <param name="state_machine_file" value="$(var state_machine_file)"/>
+                </node>
+<!--     xiaopeng modify for fanuc_r2000ic165f           -->
+<!--    <node name="/joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>-->
+<!--    <node pkg="crs_utils_py" exec="joint_state_publisher" name="/joint_state_publisher" />-->
+<!--    <node name="/robot_state_publisher" exec="robot_state_publisher" pkg="robot_state_publisher"-->
+<!--    args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf" />-->
+
+<!--xiaopeng 2021-5-8 xiaopeng if use camera , uncomment this-->
+
+    <group if="$(var use_camera)">
+      <node pkg="realsense_node" exec="realsense_node" name="realsense_node" prefix="xterm -e"
+            output="log" unless="$(var sim_robot)"/>
+    </group>
+
+                <!-- ros2 component standalone crs_perception crs_perception::LocalizeToPart  -->
+                <!--<let name="node_ns" value="/$(var group_ns)"/>
+            <executable cmd="ros2 component standalone crs_perception crs_perception::LocalizeToPart - -node-namespace $(var node_ns)"
+                name="$(var group_ns)/localization_node" output="screen" shell="true"/>-->
+
+    <!-- This launch file does not honor the ns pushed to it-->
+    <include file="$(find-pkg-share crs_application)/launch/registration_startup.launch.py">
+      <arg name="config_path" value="$(var config_dir)"/>
+    </include>
+
+    <include file="$(find-pkg-share crs_application)/launch/rework_startup.launch.py">
+      <arg name="config_path" value="$(var config_dir)"/>
+    </include>
+
+                <!-- rviz -->
+                <let name="rviz_config" value="$(find-pkg-share crs_application)/resources/crs_fanuc.rviz"/>
+                <node pkg="rviz2" exec="rviz2"  launch-prefix="xterm -e" args="-d $(var rviz_config) --ros-args --log-level INFO"
+                        output="screen">
+
+                        <param name="default_config_file" value="$(find-pkg-share crs_application)/config/crs.yaml"/>
+                        <param name="database_dir" value="$(var database_dir)"/>
+
+                 </node>
+
+
+        </group>
+</launch>

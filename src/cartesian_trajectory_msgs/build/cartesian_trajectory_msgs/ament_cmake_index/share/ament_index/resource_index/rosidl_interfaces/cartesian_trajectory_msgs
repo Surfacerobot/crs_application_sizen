@@ -1,0 +1,8 @@
+action/CartesianComplianceTrajectory.action
+action/CartesianComplianceTrajectory.idl
+msg/CartesianTolerance.idl
+msg/CartesianTolerance.msg
+msg/CartesianTrajectory.idl
+msg/CartesianTrajectory.msg
+msg/CartesianTrajectoryPoint.idl
+msg/CartesianTrajectoryPoint.msg

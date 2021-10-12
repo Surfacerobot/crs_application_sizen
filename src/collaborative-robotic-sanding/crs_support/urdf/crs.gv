@@ -1,0 +1,56 @@
+digraph G {
+node [shape=box];
+"world" [label="world"];
+"robot_stand" [label="robot_stand"];
+"base" [label="base"];
+"base_link" [label="base_link"];
+"shoulder_link" [label="shoulder_link"];
+"upper_arm_link" [label="upper_arm_link"];
+"forearm_link" [label="forearm_link"];
+"wrist_1_link" [label="wrist_1_link"];
+"wrist_2_link" [label="wrist_2_link"];
+"wrist_3_link" [label="wrist_3_link"];
+"ee_link" [label="ee_link"];
+"tool0" [label="tool0"];
+"eoat_link" [label="eoat_link"];
+"camera_link_optical" [label="camera_link_optical"];
+"camera_link" [label="camera_link"];
+"gazebo_camera_link" [label="gazebo_camera_link"];
+"sander_intermediate_link" [label="sander_intermediate_link"];
+"sander_center_link" [label="sander_center_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"world" -> "robot_stand_joint" [label="xyz: 0 0 0 \nrpy: -1.571 0 0"]
+"robot_stand_joint" -> "robot_stand"
+"robot_stand" -> "robot_base_joint" [label="xyz: -1.03066 -2.03741 0.7977 \nrpy: 0 -1.5708 -1.5708"]
+"robot_base_joint" -> "base"
+"base" -> "base_link-base_fixed_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 3.14"]
+"base_link-base_fixed_joint" -> "base_link"
+"base_link" -> "shoulder_pan_joint" [label="xyz: 0 0 0.180921 \nrpy: 0 -0 3.14159"]
+"shoulder_pan_joint" -> "shoulder_link"
+"shoulder_link" -> "shoulder_lift_joint" [label="xyz: 0.00013292 0 0 \nrpy: 1.57065 -0 -2.70338e-06"]
+"shoulder_lift_joint" -> "upper_arm_link"
+"upper_arm_link" -> "elbow_joint" [label="xyz: -0.611971 0 0 \nrpy: -0.00111773 0.000417439 -1.60611e-06"]
+"elbow_joint" -> "forearm_link"
+"forearm_link" -> "wrist_1_joint" [label="xyz: -0.571065 0.00050082 0.174415 \nrpy: -0.00287142 -0.00105648 -5.41703e-06"]
+"wrist_1_joint" -> "wrist_1_link"
+"wrist_1_link" -> "wrist_2_joint" [label="xyz: 5.96404e-05 -0.119844 -4.54415e-05 \nrpy: 1.57118 5.29396e-23 -9.13444e-07"]
+"wrist_2_joint" -> "wrist_2_link"
+"wrist_2_link" -> "wrist_3_joint" [label="xyz: 1.57784e-05 0.115534 0.000104843 \nrpy: -1.56989 -2.06823e-13 -1.054e-07"]
+"wrist_3_joint" -> "wrist_3_link"
+"wrist_3_link" -> "ee_fixed_joint" [label="xyz: 0 0 0 \nrpy: 0 -1.5708 1.5708"]
+"ee_fixed_joint" -> "ee_link"
+"wrist_3_link" -> "wrist_3_link-tool0_fixed_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"wrist_3_link-tool0_fixed_joint" -> "tool0"
+"tool0" -> "tool0_to_eoat_link" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"tool0_to_eoat_link" -> "eoat_link"
+"eoat_link" -> "camera_optical_joint" [label="xyz: -0.021 0.0797 0.06525 \nrpy: -0.7854 0 0"]
+"camera_optical_joint" -> "camera_link_optical"
+"camera_link_optical" -> "camera_link_joint" [label="xyz: 0 0 0 \nrpy: 0 -1.5708 1.5708"]
+"camera_link_joint" -> "camera_link"
+"camera_link_optical" -> "gazebo_camera_joint" [label="xyz: 0 0 0 \nrpy: 0 -1.5708 1.5708"]
+"gazebo_camera_joint" -> "gazebo_camera_link"
+"eoat_link" -> "tool0_to_sander_intermediate_link" [label="xyz: 0 -0.17503 0.15497 \nrpy: 0.7854 -0 0"]
+"tool0_to_sander_intermediate_link" -> "sander_intermediate_link"
+"sander_intermediate_link" -> "sander_intermediate_to_sander_center_link" [label="xyz: 0 0 0.03 \nrpy: 0 -0 0"]
+"sander_intermediate_to_sander_center_link" -> "sander_center_link"
+}

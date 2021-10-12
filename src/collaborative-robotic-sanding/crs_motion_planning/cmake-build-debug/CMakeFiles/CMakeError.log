@@ -1,0 +1,107 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99f3a/fast && /usr/bin/make  -f CMakeFiles/cmTC_99f3a.dir/build.make CMakeFiles/cmTC_99f3a.dir/build
+make[1]: Entering directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99f3a.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_99f3a.dir/src.c.o -c /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_99f3a
+/home/sizen/Downloads/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99f3a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_99f3a.dir/src.c.o -o cmTC_99f3a 
+CMakeFiles/cmTC_99f3a.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_99f3a.dir/build.make:105: recipe for target 'cmTC_99f3a' failed
+make[1]: *** [cmTC_99f3a] Error 1
+make[1]: Leaving directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_99f3a/fast' failed
+make: *** [cmTC_99f3a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ef7e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0ef7e.dir/build.make CMakeFiles/cmTC_0ef7e.dir/build
+make[1]: Entering directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ef7e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0ef7e.dir/CheckFunctionExists.c.o -c /home/sizen/Downloads/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ef7e
+/home/sizen/Downloads/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ef7e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0ef7e.dir/CheckFunctionExists.c.o -o cmTC_0ef7e  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0ef7e.dir/build.make:105: recipe for target 'cmTC_0ef7e' failed
+make[1]: *** [cmTC_0ef7e] Error 1
+make[1]: Leaving directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_0ef7e/fast' failed
+make: *** [cmTC_0ef7e/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eb582/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb582.dir/build.make CMakeFiles/cmTC_eb582.dir/build
+make[1]: Entering directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb582.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_eb582.dir/CheckFunctionExists.c.o -c /home/sizen/Downloads/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb582
+/home/sizen/Downloads/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb582.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_eb582.dir/CheckFunctionExists.c.o -o cmTC_eb582 
+CMakeFiles/cmTC_eb582.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eb582.dir/build.make:105: recipe for target 'cmTC_eb582' failed
+make[1]: *** [cmTC_eb582] Error 1
+make[1]: Leaving directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_eb582/fast' failed
+make: *** [cmTC_eb582/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ce94/fast && /usr/bin/make  -f CMakeFiles/cmTC_0ce94.dir/build.make CMakeFiles/cmTC_0ce94.dir/build
+make[1]: Entering directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ce94.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_0ce94.dir/CheckFunctionExists.c.o -c /home/sizen/Downloads/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ce94
+/home/sizen/Downloads/clion-2021.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ce94.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_0ce94.dir/CheckFunctionExists.c.o -o cmTC_0ce94  /usr/lib/x86_64-linux-gnu/libblas.so -lpthread -lm -ldl 
+CMakeFiles/cmTC_0ce94.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0ce94.dir/build.make:106: recipe for target 'cmTC_0ce94' failed
+make[1]: *** [cmTC_0ce94] Error 1
+make[1]: Leaving directory '/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_0ce94/fast' failed
+make: *** [cmTC_0ce94/fast] Error 2
+
+
+

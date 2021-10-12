@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000538] (crs_msgs) JobQueued: {'identifier': 'crs_msgs', 'dependencies': OrderedDict()}
+[0.000708] (crs_msgs) JobStarted: {'identifier': 'crs_msgs'}
+[0.009170] (crs_msgs) JobProgress: {'identifier': 'crs_msgs', 'progress': 'cmake'}
+[0.009371] (crs_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs', '-DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/install/crs_msgs'], 'cwd': '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/build/crs_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'bcd9c7135e88'), ('LD_LIBRARY_PATH', '/root/crs_ws_fanuc/install/lib:/root/crs_ws_fanuc/devel/lib:/opt/ros/melodic/lib:/opt/qt513/plugins:/opt/qt513/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/crs_ws_fanuc/src/collaborative-robotic-sanding'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/root/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/crs_ws_fanuc/install/lib/pkgconfig:/root/crs_ws_fanuc/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/crs_ws_fanuc/install/bin:/root/crs_ws_fanuc/devel/bin:/opt/ros/melodic/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'unix:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/build/crs_msgs'), ('PYTHONPATH', '/root/crs_ws_fanuc/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent:/root/crs_ws_fanuc/install:/root/crs_ws_fanuc/devel:/opt/ros/melodic:/opt/qt513/lib/cmake')]), 'shell': False}
+[0.051676] (crs_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.098407] (crs_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.099350] (-) TimerEvent: {}
+[0.101515] (crs_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.165263] (crs_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.165787] (crs_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199449] (-) TimerEvent: {}
+[0.231766] (crs_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.236584] (crs_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299537] (-) TimerEvent: {}
+[0.399787] (-) TimerEvent: {}
+[0.429222] (crs_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.431166] (crs_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499910] (-) TimerEvent: {}
+[0.502519] (crs_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.503043] (crs_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.577458] (crs_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.581705] (crs_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.600003] (-) TimerEvent: {}
+[0.700256] (-) TimerEvent: {}
+[0.800508] (-) TimerEvent: {}
+[0.900821] (-) TimerEvent: {}
+[0.917566] (crs_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.920389] (crs_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.952341] (crs_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.952509] (crs_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.000904] (-) TimerEvent: {}
+[1.101153] (-) TimerEvent: {}
+[1.132601] (crs_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[1.201279] (-) TimerEvent: {}
+[1.216689] (crs_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[1.237555] (crs_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[1.251630] (crs_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.301398] (-) TimerEvent: {}
+[1.317963] (crs_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 0.8.0 (/opt/ros/eloquent/share/builtin_interfaces/cmake)\n'}
+[1.325232] (crs_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[1.356150] (crs_msgs) StdoutLine: {'line': b'-- Found trajectory_msgs: 0.8.1 (/opt/ros/eloquent/share/trajectory_msgs/cmake)\n'}
+[1.373191] (crs_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:34 (find_package):\n'}
+[1.373355] (crs_msgs) StderrLine: {'line': b'  By not providing "Findcartesian_trajectory_msgs.cmake" in CMAKE_MODULE_PATH\n'}
+[1.373438] (crs_msgs) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.373513] (crs_msgs) StderrLine: {'line': b'  by "cartesian_trajectory_msgs", but CMake did not find one.\n'}
+[1.373586] (crs_msgs) StderrLine: {'line': b'\n'}
+[1.373658] (crs_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.373730] (crs_msgs) StderrLine: {'line': b'  "cartesian_trajectory_msgs" with any of the following names:\n'}
+[1.373801] (crs_msgs) StderrLine: {'line': b'\n'}
+[1.373872] (crs_msgs) StderrLine: {'line': b'    cartesian_trajectory_msgsConfig.cmake\n'}
+[1.373944] (crs_msgs) StderrLine: {'line': b'    cartesian_trajectory_msgs-config.cmake\n'}
+[1.374021] (crs_msgs) StderrLine: {'line': b'\n'}
+[1.374097] (crs_msgs) StderrLine: {'line': b'  Add the installation prefix of "cartesian_trajectory_msgs" to\n'}
+[1.374269] (crs_msgs) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "cartesian_trajectory_msgs_DIR" to a directory\n'}
+[1.374357] (crs_msgs) StderrLine: {'line': b'  containing one of the above files.  If "cartesian_trajectory_msgs" provides\n'}
+[1.374433] (crs_msgs) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.374513] (crs_msgs) StderrLine: {'line': b'\n'}
+[1.374587] (crs_msgs) StderrLine: {'line': b'\n'}
+[1.374665] (crs_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.374742] (crs_msgs) StdoutLine: {'line': b'See also "/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/build/crs_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.377382] (crs_msgs) CommandEnded: {'returncode': 1}
+[1.400890] (crs_msgs) JobEnded: {'identifier': 'crs_msgs', 'rc': 1}
+[1.401460] (-) TimerEvent: {}
+[1.411698] (-) EventReactorShutdown: {}

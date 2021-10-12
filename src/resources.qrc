@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png</file>
+    </qresource>
+</RCC>

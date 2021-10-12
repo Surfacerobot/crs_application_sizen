@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PartSelection</class>
+ <widget class="QWidget" name="PartSelection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_9">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QListWidget" name="list_widget_parts"/>
+     </item>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="list_widget_part_paths"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="push_button_load_selected_part">
+     <property name="text">
+      <string>加载</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="push_button_refresh_parts_list">
+     <property name="text">
+      <string>刷新</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>部件位置信息</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>30</y>
+        <width>40</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>x(m):</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>129</x>
+        <y>30</y>
+        <width>40</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>y(m):</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>39</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>z(m):</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>60</y>
+        <width>39</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>r(度):</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>60</y>
+        <width>40</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>w(度):</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>129</x>
+        <y>60</y>
+        <width>29</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>p(度):</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="partupdatebutton">
+      <property name="geometry">
+       <rect>
+        <x>277</x>
+        <y>90</y>
+        <width>70</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>更新</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="l_x">
+      <property name="geometry">
+       <rect>
+        <x>47</x>
+        <y>30</y>
+        <width>70</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="l_y">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>30</y>
+        <width>70</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="l_z">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>30</y>
+        <width>70</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="l_p">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>60</y>
+        <width>70</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="l_w">
+      <property name="geometry">
+       <rect>
+        <x>47</x>
+        <y>60</y>
+        <width>70</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="l_r">
+      <property name="geometry">
+       <rect>
+        <x>289</x>
+        <y>57</y>
+        <width>70</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

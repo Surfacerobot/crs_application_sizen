@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  <let name="ns" value="live"/>
+  <let name="robot_description_file" value="$(find-pkg-share crs_support)/urdf/crs.urdf"/>
+<!--<let name="robot_description_file" value="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf"/>-->
+
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="$(var ns)/robot_state_publisher" namespace="$(var ns)"
+    args="$(var robot_description_file)"/>
+	
+<!--   <node name="/joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>-->
+
+</launch>

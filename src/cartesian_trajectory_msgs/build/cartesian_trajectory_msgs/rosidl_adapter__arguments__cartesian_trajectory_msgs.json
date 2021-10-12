@@ -1,0 +1,9 @@
+{
+  "package_name": "cartesian_trajectory_msgs",
+  "non_idl_tuples": [
+    "/root/crs_ws_fanuc/src/cartesian_trajectory_msgs:msg/CartesianTrajectoryPoint.msg",
+    "/root/crs_ws_fanuc/src/cartesian_trajectory_msgs:msg/CartesianTolerance.msg",
+    "/root/crs_ws_fanuc/src/cartesian_trajectory_msgs:msg/CartesianTrajectory.msg",
+    "/root/crs_ws_fanuc/src/cartesian_trajectory_msgs:action/CartesianComplianceTrajectory.action"
+  ]
+}

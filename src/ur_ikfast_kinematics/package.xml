@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ur_ikfast_kinematics</name>
+  <version>0.0.1</version>
+  <description>An IKFast solver for the Universal Robots UR-10e 6-DOF collaborative robot arm. Uses the descartes_ikfast interface.</description>
+  <maintainer email="joseph.schornak@swri.org">Joe Schornak</maintainer>
+  <license>Apache 2.0</license>
+  <depend>descartes_ikfast</depend>
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

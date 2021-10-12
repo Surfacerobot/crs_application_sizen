@@ -1,0 +1,79 @@
+[0.165s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.165s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe9c6f56438>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe9c6f56438>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe9c6f567f0>)
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.171s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'crs_application'
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'crs_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'crs_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application', 'merge_install': False, 'path': '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application', 'symlink_install': False, 'test_result_base': None}
+[0.214s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application' with build type 'ament_cmake'
+[0.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application'
+[0.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.222s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/root/crs_ws_fanuc/install'
+[0.222s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/root/crs_ws_fanuc/devel'
+[0.222s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application': CMAKE_PREFIX_PATH=/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application
+[2.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/build/crs_application' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application
+[2.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crs_application)
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application' for CMake module files
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application' for CMake config files
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/bin'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/lib/pkgconfig/crs_application.pc'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/lib/python3.6/site-packages'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/share/crs_application/package.ps1'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/share/crs_application/package.dsv'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/share/crs_application/package.sh'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/share/crs_application/package.bash'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/share/crs_application/package.zsh'
+[2.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/crs_application/share/colcon-core/packages/crs_application)
+[2.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.350s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.398s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.404s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.405s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/local_setup.ps1'
+[2.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/_local_setup_util_ps1.py'
+[2.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/setup.ps1'
+[2.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/local_setup.sh'
+[2.450s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/_local_setup_util_sh.py'
+[2.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/setup.sh'
+[2.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/local_setup.bash'
+[2.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/setup.bash'
+[2.458s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/local_setup.zsh'
+[2.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/install/setup.zsh'

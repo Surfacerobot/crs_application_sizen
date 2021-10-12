@@ -1,0 +1,4 @@
+/root/crs_ws_fanuc/src/cartesian_trajectory_msgs/build/cartesian_trajectory_msgs/rosidl_adapter/cartesian_trajectory_msgs:msg/CartesianTrajectoryPoint.idl
+/root/crs_ws_fanuc/src/cartesian_trajectory_msgs/build/cartesian_trajectory_msgs/rosidl_adapter/cartesian_trajectory_msgs:msg/CartesianTolerance.idl
+/root/crs_ws_fanuc/src/cartesian_trajectory_msgs/build/cartesian_trajectory_msgs/rosidl_adapter/cartesian_trajectory_msgs:msg/CartesianTrajectory.idl
+/root/crs_ws_fanuc/src/cartesian_trajectory_msgs/build/cartesian_trajectory_msgs/rosidl_adapter/cartesian_trajectory_msgs:action/CartesianComplianceTrajectory.idl

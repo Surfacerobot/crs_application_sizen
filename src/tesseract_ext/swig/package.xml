@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>swig</name>
+  <version>4.0.0</version>
+  <description>The SWIG Catkin Package</description>
+  <maintainer email="levi.armstrong@swri.org">Levi Armstrong</maintainer>
+  <license>Unknown</license>
+
+  <build_depend>automake</build_depend>
+  <build_depend>bison</build_depend>
+  <depend>pcre</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+
+</package>

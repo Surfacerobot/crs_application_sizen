@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>region_detection_core</name>
+  <version>0.0.0</version>
+  <description>The region_detection_core package</description>
+  <maintainer email="jrgnichodevel@gmail.com">Jorge Nicho</maintainer>
+  <license>BSD3</license>
+  <author email="jrgnichodevel@gmail.com">Jorge Nicho</author>
+  
+  <depend>libconsole-bridge-dev</depend>
+  <depend>libopencv-dev</depend>
+
+  <export>
+	  <build_type> cmake </build_type>	
+  </export>
+</package>

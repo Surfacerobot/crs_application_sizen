@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/build/crs_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/install/crs_msgs
+[0.051s] -- The C compiler identification is GNU 7.5.0
+[0.098s] -- The CXX compiler identification is GNU 7.5.0
+[0.101s] -- Check for working C compiler: /usr/bin/cc
+[0.165s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.165s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.236s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.502s] -- Detecting CXX compiler ABI info
+[0.577s] -- Detecting CXX compiler ABI info - done
+[0.581s] -- Detecting CXX compile features
+[0.917s] -- Detecting CXX compile features - done
+[0.920s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.952s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.952s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.132s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.216s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[1.237s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[1.251s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.317s] -- Found builtin_interfaces: 0.8.0 (/opt/ros/eloquent/share/builtin_interfaces/cmake)
+[1.325s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[1.356s] -- Found trajectory_msgs: 0.8.1 (/opt/ros/eloquent/share/trajectory_msgs/cmake)
+[1.373s] CMake Error at CMakeLists.txt:34 (find_package):
+[1.373s]   By not providing "Findcartesian_trajectory_msgs.cmake" in CMAKE_MODULE_PATH
+[1.373s]   this project has asked CMake to find a package configuration file provided
+[1.373s]   by "cartesian_trajectory_msgs", but CMake did not find one.
+[1.373s] 
+[1.373s]   Could not find a package configuration file provided by
+[1.373s]   "cartesian_trajectory_msgs" with any of the following names:
+[1.373s] 
+[1.373s]     cartesian_trajectory_msgsConfig.cmake
+[1.373s]     cartesian_trajectory_msgs-config.cmake
+[1.373s] 
+[1.373s]   Add the installation prefix of "cartesian_trajectory_msgs" to
+[1.374s]   CMAKE_PREFIX_PATH or set "cartesian_trajectory_msgs_DIR" to a directory
+[1.374s]   containing one of the above files.  If "cartesian_trajectory_msgs" provides
+[1.374s]   a separate development package or SDK, be sure it has been installed.
+[1.374s] 
+[1.374s] 
+[1.374s] -- Configuring incomplete, errors occurred!
+[1.374s] See also "/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/build/crs_msgs/CMakeFiles/CMakeOutput.log".
+[1.377s] Invoked command in '/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/build/crs_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_msgs/install/crs_msgs

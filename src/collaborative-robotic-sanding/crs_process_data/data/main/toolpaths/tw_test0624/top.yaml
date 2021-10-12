@@ -1,0 +1,469 @@
+- process_type:
+    val: "\x00"
+  paths:
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - position:
+            x: -0.4072489738464355
+            y: -0.3735905885696411
+            z: 0.005038261413574219
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.3559920787811279
+            y: -0.3842502534389496
+            z: 0.007127761840820312
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.3048357665538788
+            y: -0.3889124095439911
+            z: 0.003254413604736328
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.2557899653911591
+            y: -0.3984760940074921
+            z: 0.005254387855529785
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.2019489109516144
+            y: -0.4054630398750305
+            z: 0.007454156875610352
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.1546542644500732
+            y: -0.4116128087043762
+            z: 0.003420710563659668
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.1080681309103966
+            y: -0.4127248525619507
+            z: 0.005329608917236328
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.06025916337966919
+            y: -0.4138039946556091
+            z: 0.007288813591003418
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.01837511360645294
+            y: -0.4140481948852539
+            z: 0.003040671348571777
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.01493886858224869
+            y: -0.4167844653129578
+            z: 0.004403471946716309
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.06782675534486771
+            y: -0.4152776598930359
+            z: 0.006573915481567383
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.105548270046711
+            y: -0.4144321382045746
+            z: 0.002156376838684082
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.153706818819046
+            y: -0.4118121266365051
+            z: 0.004134178161621094
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.1968553960323334
+            y: -0.4068694710731506
+            z: 0.005909323692321777
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.2462870180606842
+            y: -0.3969633281230927
+            z: 0.001982569694519043
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.2897888123989105
+            y: -0.3969675004482269
+            z: 0.003766298294067383
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.3367201685905457
+            y: -0.3869259655475616
+            z: 0.005702614784240723
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.3786559998989105
+            y: -0.3757791817188263
+            z: 0.007435321807861328
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.4217272996902466
+            y: -0.3671493232250214
+            z: 0.003246068954467773
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.455160915851593
+            y: -0.3574521541595459
+            z: 0.004628539085388184
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.4923005700111389
+            y: -0.3464031219482422
+            z: 0.006164431571960449
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - position:
+            x: -0.4072489738464355
+            y: -0.3735905885696411
+            z: 0.005038261413574219
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.3559920787811279
+            y: -0.3842502534389496
+            z: 0.007127761840820312
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.3048357665538788
+            y: -0.3889124095439911
+            z: 0.003254413604736328
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.2557899653911591
+            y: -0.3984760940074921
+            z: 0.005254387855529785
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.2019489109516144
+            y: -0.4054630398750305
+            z: 0.007454156875610352
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.1546542644500732
+            y: -0.4116128087043762
+            z: 0.003420710563659668
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.1080681309103966
+            y: -0.4127248525619507
+            z: 0.005329608917236328
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.06025916337966919
+            y: -0.4138039946556091
+            z: 0.007288813591003418
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.01837511360645294
+            y: -0.4140481948852539
+            z: 0.003040671348571777
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.01493886858224869
+            y: -0.4167844653129578
+            z: 0.004403471946716309
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.06782675534486771
+            y: -0.4152776598930359
+            z: 0.006573915481567383
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.105548270046711
+            y: -0.4144321382045746
+            z: 0.002156376838684082
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.153706818819046
+            y: -0.4118121266365051
+            z: 0.004134178161621094
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.1968553960323334
+            y: -0.4068694710731506
+            z: 0.005909323692321777
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.2462870180606842
+            y: -0.3969633281230927
+            z: 0.001982569694519043
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.2897888123989105
+            y: -0.3969675004482269
+            z: 0.003766298294067383
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.3367201685905457
+            y: -0.3869259655475616
+            z: 0.005702614784240723
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.3786559998989105
+            y: -0.3757791817188263
+            z: 0.007435321807861328
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.4217272996902466
+            y: -0.3671493232250214
+            z: 0.003246068954467773
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.455160915851593
+            y: -0.3574521541595459
+            z: 0.004628539085388184
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.4923005700111389
+            y: -0.3464031219482422
+            z: 0.006164431571960449
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+  header:
+    frame_id: ""
+    seq: 0
+    stamp:
+      sec: 0
+      nsec: 0
+  dwell_time: 0
+  tool_offset:
+    position:
+      x: 0
+      y: 0
+      z: 0
+    orientation:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+  params:
+    config:
+      surface_walk_generator:
+        point_spacing: 0.1
+        raster_spacing: 0.2
+        tool_offset: 0
+        intersection_plane_height: 0.05
+        min_hole_size: 0.2
+        min_segment_size: 0.5
+        raster_rot_offset: 0
+        generate_extra_rasters: "\x00"
+        cut_direction:
+          x: 0
+          y: 0
+          z: 0
+      plane_slicer_generator:
+        raster_spacing: 0
+        point_spacing: 0
+        raster_rot_offset: 0
+        min_segment_size: 0
+        min_hole_size: 0
+        tool_offset: 0
+        raster_wrt_global_axes: "\x00"
+        raster_direction:
+          x: 0
+          y: 0
+          z: 0
+      heat_generator:
+        point_spacing: 0
+        raster_spacing: 0
+        tool_offset: 0
+        min_hole_size: 0
+        min_segment_size: 0
+        raster_rot_offset: 0
+        generate_extra_rasters: "\x00"
+      eigen_value_generator:
+        octree_res: 0
+        search_radius: 0
+        num_threads: 0
+        neighbor_tol: 0
+        voxel_size: 0
+        edge_cluster_min: 0
+        kdtree_epsilon: 0
+        min_projection_dist: 0
+        max_intersecting_voxels: 0
+        merge_dist: 0
+        max_segment_length: 0
+      half_edge_generator:
+        min_num_points: 0
+        normal_averaging: "\x00"
+        normal_search_radius: 0
+        normal_influence_weight: 0
+        point_spacing_method: 0
+        point_dist: 0
+        max_segment_length: 0
+    curvature_threshold: 0.05
+    min_polygons_per_cluster: 500

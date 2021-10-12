@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cartesian_trajectory_msgs/action/CartesianComplianceTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "cartesian_trajectory_msgs/msg/CartesianTolerance.idl"
+#include "cartesian_trajectory_msgs/msg/CartesianTrajectory.idl"
+#include "cartesian_trajectory_msgs/msg/CartesianTrajectoryPoint.idl"
+#include "geometry_msgs/msg/Wrench.idl"
+#include "std_msgs/msg/Header.idl"
+
+module cartesian_trajectory_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal")
+    struct CartesianComplianceTrajectory_Goal {
+      cartesian_trajectory_msgs::msg::CartesianTrajectory trajectory;
+
+      cartesian_trajectory_msgs::msg::CartesianTolerance path_tolerance;
+
+      cartesian_trajectory_msgs::msg::CartesianTolerance goal_tolerance;
+
+      geometry_msgs::msg::Wrench force;
+
+      double speed;
+    };
+    struct CartesianComplianceTrajectory_Result {
+      @verbatim (language="comment", text=
+        " Result")
+      boolean success;
+
+      string err_msg;
+    };
+    struct CartesianComplianceTrajectory_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
+      std_msgs::msg::Header header;
+
+      string tcp_frame;
+
+      cartesian_trajectory_msgs::msg::CartesianTrajectoryPoint desired;
+
+      cartesian_trajectory_msgs::msg::CartesianTrajectoryPoint virtual_desired;
+
+      cartesian_trajectory_msgs::msg::CartesianTrajectoryPoint actual;
+
+      cartesian_trajectory_msgs::msg::CartesianTrajectoryPoint error;
+    };
+  };
+};

@@ -1,0 +1,686 @@
+/home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_index_cpp: 0.7.2 (/opt/ros/eloquent/share/ament_index_cpp/cmake)
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 0.8.5 (/opt/ros/eloquent/share/rclcpp_action/cmake)
+-- Found crs_msgs: 0.0.0 (/home/sizen/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (OMPL) does
+  not match the name of the calling package (ompl).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/ompl/ompl-config.cmake:102 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:22 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/include (found version "1.65.1") found components: system python thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1") found components: system 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.4)
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.40.0") found components: system filesystem thread date_time iostreams serialization chrono atomic regex 
+-- FLANN found (include: , lib: flann;flann_cpp)
+-- FLANN found (include: , lib: flann;flann_cpp)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:183 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:316 (find_openni)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:197 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:318 (find_openni2)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (ENSENSO)
+  does not match the name of the calling package (Ensenso).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindEnsenso.cmake:41 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:210 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:320 (find_ensenso)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Ensenso found (include: /opt/ensenso/development/c/include, lib: /usr/lib/libNxLib64.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:285 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:330 (find_libusb)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:183 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:316 (find_openni)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:197 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:318 (find_openni2)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (ENSENSO)
+  does not match the name of the calling package (Ensenso).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindEnsenso.cmake:41 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:210 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:320 (find_ensenso)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:536 (find_external_library)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Ensenso found (include: /opt/ensenso/development/c/include, lib: /usr/lib/libNxLib64.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:607 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:607 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:604 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:23 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1") found components: system python thread program_options chrono date_time atomic 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.65.1") found components: system 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1")  
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr/local
+
+  For compatibility, CMake is ignoring the variable.
+Call Stack (most recent call first):
+  /home/sizen/crs_ws_fanuc/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:25 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract/lib/cmake/tesseract/tesseract-config.cmake:33 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:28 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+CMake Warning (dev) at /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (OMPL) does
+  not match the name of the calling package (ompl).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/ompl/ompl-config.cmake:102 (find_package_handle_standard_args)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:22 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_process_planners/lib/cmake/tesseract_process_planners/tesseract_process_planners-config.cmake:23 (find_dependency)
+  /home/sizen/clion/CLion-2021.1/clion-2021.1/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/sizen/crs_ws_fanuc/install/tesseract_rosutils/lib/cmake/tesseract_rosutils/tesseract_rosutils-config.cmake:28 (find_dependency)
+  CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/include (found version "1.65.1") found components: system python thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1") found components: system 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1") found components: system python thread program_options chrono date_time atomic 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.65.1") found components: system 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system thread program_options chrono date_time atomic 
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found std_srvs: 0.8.1 (/opt/ros/eloquent/share/std_srvs/cmake)
+-- Found visualization_msgs: 0.8.1 (/opt/ros/eloquent/share/visualization_msgs/cmake)
+-- Found control_msgs: 2.2.0 (/opt/ros/eloquent/share/control_msgs/cmake)
+-- Found tf2: 0.12.6 (/opt/ros/eloquent/share/tf2/cmake)
+-- Found tf2_ros: 0.12.6 (/opt/ros/eloquent/share/tf2_ros/cmake)
+-- Found tf2_eigen: 0.12.6 (/opt/ros/eloquent/share/tf2_eigen/cmake)
+-- Found tf2_geometry_msgs: 0.12.6 (/opt/ros/eloquent/share/tf2_geometry_msgs/cmake)
+-- Found yaml_cpp_vendor: 7.0.0 (/opt/ros/eloquent/share/yaml_cpp_vendor/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include>
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/cmake-build-debug

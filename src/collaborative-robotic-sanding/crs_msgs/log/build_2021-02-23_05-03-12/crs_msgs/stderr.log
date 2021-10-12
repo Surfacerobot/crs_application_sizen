@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:34 (find_package):
+  By not providing "Findcartesian_trajectory_msgs.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "cartesian_trajectory_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "cartesian_trajectory_msgs" with any of the following names:
+
+    cartesian_trajectory_msgsConfig.cmake
+    cartesian_trajectory_msgs-config.cmake
+
+  Add the installation prefix of "cartesian_trajectory_msgs" to
+  CMAKE_PREFIX_PATH or set "cartesian_trajectory_msgs_DIR" to a directory
+  containing one of the above files.  If "cartesian_trajectory_msgs" provides
+  a separate development package or SDK, be sure it has been installed.
+
+

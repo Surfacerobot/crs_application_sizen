@@ -1,0 +1,331 @@
+- process_type:
+    val: "\x00"
+  dwell_time: 0
+  tool_offset:
+    position:
+      x: 0
+      y: 0
+      z: 0
+    orientation:
+      x: 1
+      y: 0
+      z: 0
+      w: 6.123233995736766e-17
+  params:
+    config:
+      eigen_value_generator:
+        octree_res: 0
+        search_radius: 0
+        num_threads: 0
+        neighbor_tol: 0
+        voxel_size: 0
+        edge_cluster_min: 0
+        kdtree_epsilon: 0
+        min_projection_dist: 0
+        max_intersecting_voxels: 0
+        merge_dist: 0
+        max_segment_length: 0
+      half_edge_generator:
+        min_num_points: 0
+        normal_averaging: "\x00"
+        normal_search_radius: 0
+        normal_influence_weight: 0
+        point_spacing_method: 0
+        point_dist: 0
+        max_segment_length: 0
+      plane_slicer_generator:
+        raster_spacing: 0.04
+        point_spacing: 0.04
+        raster_rot_offset: 1.570796326794897
+        min_segment_size: 0
+        min_hole_size: 0.02
+        tool_offset: 0
+        raster_wrt_global_axes: "\x00"
+        raster_direction:
+          x: 0
+          y: 0
+          z: 0
+      heat_generator:
+        generate_extra_rasters: "\x00"
+        point_spacing: 0
+        raster_spacing: 0
+        tool_offset: 0
+        min_hole_size: 0
+        min_segment_size: 0
+        raster_rot_offset: 0
+      surface_walk_generator:
+        raster_spacing: 0.04
+        tool_offset: 0
+        intersection_plane_height: 0
+        min_hole_size: 0.02
+        min_segment_size: 0
+        raster_rot_offset: 1.570796326794897
+        generate_extra_rasters: "\x00"
+        cut_direction:
+          x: 0
+          y: 0
+          z: 0
+        point_spacing: 0.04
+    curvature_threshold: 0.05
+    min_polygons_per_cluster: 500
+  paths:
+    - poses:
+        - position:
+            z: 0.4054124653339386
+            x: 0.06918860226869583
+            y: 0.4256477355957031
+          orientation:
+            w: 0.4773005113636448
+            y: 0.518335805261332
+            z: 0.4489819816392547
+            x: -0.5494792034275525
+        - position:
+            y: 0.4153647422790527
+            z: 0.3333585560321808
+            x: 0.07352593541145325
+          orientation:
+            z: 0.429808249586469
+            w: 0.4653874920149272
+            x: -0.5617644496058364
+            y: 0.5320714745431511
+        - orientation:
+            x: -0.5617644496058364
+            y: 0.5320714745431511
+            z: 0.429808249586469
+            w: 0.4653874920149272
+          position:
+            y: 0.4081454873085022
+            z: 0.2976483106613159
+            x: 0.07587449997663498
+      header:
+        seq: 0
+        stamp:
+          nsec: 0
+          sec: 0
+        frame_id: ""
+    - poses:
+        - orientation:
+            w: 0.4399005971591518
+            x: -0.5242384451883249
+            y: -0.5644920212305718
+            z: -0.4615303621351176
+          position:
+            y: 0.4053431451320648
+            z: 0.2850537300109863
+            x: 0.03650790825486183
+        - orientation:
+            x: -0.5126609850282186
+            y: -0.5516760968723956
+            z: -0.4743988409301501
+            w: 0.4558266537771418
+          position:
+            x: 0.03223369643092155
+            y: 0.41788449883461
+            z: 0.3512390553951263
+        - position:
+            x: 0.02826478332281113
+            y: 0.4268722534179688
+            z: 0.4180168807506561
+          orientation:
+            y: -0.5516760968723956
+            z: -0.4743988409301501
+            w: 0.4558266537771418
+            x: -0.5126609850282186
+      header:
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+        seq: 0
+    - poses:
+        - orientation:
+            x: -0.5584738383725432
+            y: 0.5063424790205907
+            z: 0.46280289477264
+            w: 0.4664094192689359
+          position:
+            y: 0.4252422749996185
+            z: 0.4136139452457428
+            x: -0.01159522030502558
+        - orientation:
+            x: -0.5718384600338352
+            y: 0.5208063003993435
+            z: 0.4435709483262697
+            w: 0.4527763099935933
+          position:
+            y: 0.4147266745567322
+            z: 0.3358938694000244
+            x: -0.006970794871449471
+        - orientation:
+            y: 0.5208063003993435
+            z: 0.4435709483262697
+            w: 0.4527763099935933
+            x: -0.5718384600338352
+          position:
+            x: -0.00445543322712183
+            y: 0.4071049988269806
+            z: 0.2974266111850739
+      header:
+        frame_id: ""
+        seq: 0
+        stamp:
+          nsec: 0
+          sec: 0
+    - poses:
+        - position:
+            x: -0.04488526284694672
+            y: 0.4063461422920227
+            z: 0.3034504055976868
+          orientation:
+            x: -0.5148519988620516
+            y: -0.5772989875429344
+            z: -0.4457392168570435
+            w: 0.4505217517560306
+        - position:
+            x: -0.04737669602036476
+            y: 0.4138621985912323
+            z: 0.3416180312633514
+          orientation:
+            x: -0.5038101930235925
+            y: -0.558130843788209
+            z: -0.4665333041880809
+            w: 0.4658453892668082
+        - position:
+            x: -0.05192172154784203
+            y: 0.4238145351409912
+            z: 0.4187696576118469
+          orientation:
+            x: -0.5038101930235925
+            y: -0.558130843788209
+            z: -0.4665333041880809
+            w: 0.4658453892668082
+      header:
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+        seq: 0
+    - poses:
+        - position:
+            x: -0.09217338263988495
+            y: 0.4221046566963196
+            z: 0.4228917062282562
+          orientation:
+            x: -0.5568936673018144
+            y: 0.5052883023310023
+            z: 0.464216969526083
+            w: 0.4680339518139783
+        - orientation:
+            x: -0.5711164615616168
+            y: 0.5126291912738633
+            z: 0.4539043597853513
+            w: 0.452778236839066
+          position:
+            y: 0.4141228199005127
+            z: 0.3612737357616425
+            x: -0.08854033052921295
+        - position:
+            x: -0.08465699851512909
+            y: 0.4032565951347351
+            z: 0.3000837564468384
+          orientation:
+            z: 0.4539043597853513
+            w: 0.452778236839066
+            x: -0.5711164615616168
+            y: 0.5126291912738633
+      header:
+        frame_id: ""
+        seq: 0
+        stamp:
+          nsec: 0
+          sec: 0
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - orientation:
+            x: -0.5037516876665292
+            y: -0.5857282864286018
+            z: -0.4343594872906393
+            w: 0.4631289749639405
+          position:
+            y: 0.3980817794799805
+            z: 0.2925983965396881
+            x: -0.1240404546260834
+        - position:
+            x: -0.1281969547271729
+            y: 0.4103758037090302
+            z: 0.356764554977417
+          orientation:
+            x: -0.4957640973588319
+            y: -0.5689227654064872
+            z: -0.4536114573601658
+            w: 0.4741112659743537
+        - orientation:
+            x: -0.4957640973588319
+            y: -0.5689227654064872
+            z: -0.4536114573601658
+            w: 0.4741112659743537
+          position:
+            x: -0.1320507526397705
+            y: 0.4191459715366364
+            z: 0.42151939868927
+    - poses:
+        - position:
+            x: -0.1725539565086365
+            y: 0.4169591069221497
+            z: 0.4319687783718109
+          orientation:
+            x: -0.5695161262716025
+            y: 0.4911142936417523
+            z: 0.4793053114804471
+            w: 0.4524649719967089
+        - position:
+            x: -0.1697157025337219
+            y: 0.4108254909515381
+            z: 0.3836266696453094
+          orientation:
+            x: -0.5695161262716025
+            y: 0.4911142936417523
+            z: 0.4793053114804471
+            w: 0.4524649719967089
+      header:
+        frame_id: ""
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - position:
+            x: -0.1676752418279648
+            y: 0.4054322838783264
+            z: 0.3508416414260864
+          orientation:
+            x: -0.5878252845494967
+            y: 0.5015528726697697
+            z: 0.4655045188046019
+            w: 0.4315225298098597
+        - orientation:
+            x: -0.5878252845494967
+            y: 0.5015528726697697
+            z: 0.4655045188046019
+            w: 0.4315225298098597
+          position:
+            x: -0.1654893159866333
+            y: 0.3989640772342682
+            z: 0.317101776599884
+  header:
+    frame_id: ""
+    seq: 0
+    stamp:
+      sec: 1618563940
+      nsec: 89619550

@@ -1,0 +1,289 @@
+- process_type:
+    val: "\x00"
+  header:
+    seq: 0
+    stamp:
+      nsec: 0
+      sec: 0
+    frame_id: ""
+  paths:
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - position:
+            x: 0.07653161883354187
+            y: -0.4004594087600708
+            z: -0.02543032169342041
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.02213084697723389
+            y: -0.3421729803085327
+            z: -0.004892110824584961
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.01301411539316177
+            y: -0.2591397166252136
+            z: 0.01311349868774414
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.04610427469015121
+            y: -0.1685864180326462
+            z: 0.02446520328521729
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.05441807210445404
+            y: -0.08336968719959259
+            z: 0.02963399887084961
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.06043793261051178
+            y: 0.02677783370018005
+            z: 0.03269314765930176
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.03678010404109955
+            y: 0.1180623844265938
+            z: 0.02457344532012939
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.005089454352855682
+            y: 0.2389101833105087
+            z: 0.01381456851959229
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.0208418071269989
+            y: 0.3150049448013306
+            z: 0.0009032487869262695
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.05884039402008057
+            y: 0.3657020330429077
+            z: -0.01022970676422119
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.1180184632539749
+            y: 0.4321748614311218
+            z: -0.04115438461303711
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+    - header:
+        seq: 0
+        stamp:
+          sec: 0
+          nsec: 0
+        frame_id: ""
+      poses:
+        - position:
+            x: 0.07653161883354187
+            y: -0.4004594087600708
+            z: -0.02543032169342041
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.02213084697723389
+            y: -0.3421729803085327
+            z: -0.004892110824584961
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.01301411539316177
+            y: -0.2591397166252136
+            z: 0.01311349868774414
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.04610427469015121
+            y: -0.1685864180326462
+            z: 0.02446520328521729
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.05441807210445404
+            y: -0.08336968719959259
+            z: 0.02963399887084961
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.06043793261051178
+            y: 0.02677783370018005
+            z: 0.03269314765930176
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.03678010404109955
+            y: 0.1180623844265938
+            z: 0.02457344532012939
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: -0.005089454352855682
+            y: 0.2389101833105087
+            z: 0.01381456851959229
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.0208418071269989
+            y: 0.3150049448013306
+            z: 0.0009032487869262695
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.05884039402008057
+            y: 0.3657020330429077
+            z: -0.01022970676422119
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+        - position:
+            x: 0.1180184632539749
+            y: 0.4321748614311218
+            z: -0.04115438461303711
+          orientation:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+  dwell_time: 0
+  tool_offset:
+    position:
+      x: 0
+      y: 0
+      z: 0
+    orientation:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+  params:
+    config:
+      surface_walk_generator:
+        point_spacing: 0.1
+        raster_spacing: 0.2
+        tool_offset: 0
+        intersection_plane_height: 0.05
+        min_hole_size: 0.2
+        min_segment_size: 0.5
+        raster_rot_offset: 0
+        generate_extra_rasters: "\x00"
+        cut_direction:
+          x: 0
+          y: 0
+          z: 0
+      plane_slicer_generator:
+        raster_spacing: 0
+        point_spacing: 0
+        raster_rot_offset: 0
+        min_segment_size: 0
+        min_hole_size: 0
+        tool_offset: 0
+        raster_wrt_global_axes: "\x00"
+        raster_direction:
+          x: 0
+          y: 0
+          z: 0
+      heat_generator:
+        point_spacing: 0
+        raster_spacing: 0
+        tool_offset: 0
+        min_hole_size: 0
+        min_segment_size: 0
+        raster_rot_offset: 0
+        generate_extra_rasters: "\x00"
+      eigen_value_generator:
+        octree_res: 0
+        search_radius: 0
+        num_threads: 0
+        neighbor_tol: 0
+        voxel_size: 0
+        edge_cluster_min: 0
+        kdtree_epsilon: 0
+        min_projection_dist: 0
+        max_intersecting_voxels: 0
+        merge_dist: 0
+        max_segment_length: 0
+      half_edge_generator:
+        min_num_points: 0
+        normal_averaging: "\x00"
+        normal_search_radius: 0
+        normal_influence_weight: 0
+        point_spacing_method: 0
+        point_dist: 0
+        max_segment_length: 0
+    curvature_threshold: 0.05
+    min_polygons_per_cluster: 500

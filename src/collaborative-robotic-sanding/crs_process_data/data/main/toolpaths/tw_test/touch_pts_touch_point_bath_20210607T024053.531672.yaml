@@ -1,0 +1,120 @@
+- threshold: 0
+  description: ""
+  transform:
+    header:
+      frame_id: ""
+      seq: 0
+      stamp:
+        sec: 0
+        nsec: 0
+    pose:
+      position:
+        y: -0.39
+        z: 0
+        x: -0.27
+      orientation:
+        x: 0.97
+        y: 0.01
+        z: 0.03
+        w: 0.24
+  name: p1
+- description: ""
+  name: p2
+  threshold: 0
+  transform:
+    header:
+      seq: 0
+      stamp:
+        sec: 0
+        nsec: 0
+      frame_id: ""
+    pose:
+      position:
+        x: -0.07000000000000001
+        y: -0.41
+        z: 0
+      orientation:
+        x: 0.99
+        y: 0.01
+        z: 0.05
+        w: 0.12
+- name: p3
+  description: ""
+  threshold: 0
+  transform:
+    header:
+      seq: 0
+      stamp:
+        sec: 0
+        nsec: 0
+      frame_id: ""
+    pose:
+      position:
+        x: 0
+        y: -0.41
+        z: 0
+      orientation:
+        x: 1
+        y: 0
+        z: -0.02
+        w: 0.08
+- name: p4
+  description: ""
+  threshold: 0
+  transform:
+    header:
+      seq: 0
+      stamp:
+        sec: 0
+        nsec: 0
+      frame_id: ""
+    pose:
+      position:
+        x: 0.05
+        y: -0.42
+        z: 0
+      orientation:
+        x: 1
+        y: 0
+        z: -0.01
+        w: -0.02
+- name: p5
+  description: ""
+  threshold: 0
+  transform:
+    header:
+      seq: 0
+      stamp:
+        sec: 0
+        nsec: 0
+      frame_id: ""
+    pose:
+      position:
+        x: 0.13
+        y: -0.42
+        z: 0
+      orientation:
+        x: 1
+        y: 0
+        z: -0.01
+        w: -0.02
+- name: p6
+  description: ""
+  threshold: 0
+  transform:
+    header:
+      seq: 0
+      stamp:
+        sec: 0
+        nsec: 0
+      frame_id: ""
+    pose:
+      position:
+        x: 0.19
+        y: -0.41
+        z: 0
+      orientation:
+        x: 0.98
+        y: 0.02
+        z: 0.18
+        w: 0.1

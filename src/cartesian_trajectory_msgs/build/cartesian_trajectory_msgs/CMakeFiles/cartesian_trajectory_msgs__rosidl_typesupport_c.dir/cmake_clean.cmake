@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "rosidl_typesupport_c/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__type_support.cpp"
+  "rosidl_typesupport_c/cartesian_trajectory_msgs/msg/cartesian_tolerance__type_support.cpp"
+  "rosidl_typesupport_c/cartesian_trajectory_msgs/msg/cartesian_trajectory__type_support.cpp"
+  "rosidl_typesupport_c/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__type_support.cpp"
+  "CMakeFiles/cartesian_trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__type_support.cpp.o"
+  "CMakeFiles/cartesian_trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartesian_trajectory_msgs/msg/cartesian_tolerance__type_support.cpp.o"
+  "CMakeFiles/cartesian_trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartesian_trajectory_msgs/msg/cartesian_trajectory__type_support.cpp.o"
+  "CMakeFiles/cartesian_trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__type_support.cpp.o"
+  "libcartesian_trajectory_msgs__rosidl_typesupport_c.pdb"
+  "libcartesian_trajectory_msgs__rosidl_typesupport_c.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/cartesian_trajectory_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

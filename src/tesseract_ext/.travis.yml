@@ -1,0 +1,82 @@
+# This config file for Travis CI
+sudo: required
+
+services:
+  - docker
+
+git:
+  quiet: true
+  submodules: false
+
+notifications:
+  email:
+    recipients:
+      - levi.armstrong@swri.org
+
+env:
+  global:
+    - CCACHE_DIR=$HOME/.ccache
+    - ROS_REPO=ros
+    - NOT_TEST_INSTALL=true
+    - ADDITIONAL_DEBS="autotools-dev automake libpcre3-dev bison"
+
+jobs:
+  include:
+    - os: linux
+      dist: xenial
+      language: cpp
+      env:
+      - ROS_DISTRO="kinetic"
+      - BADGE=xenial
+      cache:
+        directories:
+          - $HOME/.ccache
+    - os: linux
+      dist: bionic
+      language: cpp
+      env:
+      - ROS_DISTRO="melodic"
+      - BADGE=bionic
+      cache:
+        directories:
+          - $HOME/.ccache
+    - os: windows
+      language: cpp
+      env: BADGE=windows
+
+install:
+  - if [ "$TRAVIS_OS_NAME" != "windows" ]; then git clone --quiet --depth=1 https://github.com/ros-industrial/industrial_ci.git .ci_config; fi
+  - |
+    if [ "$TRAVIS_OS_NAME" = "windows" ]; then
+        unset CXX CXX_FOR_BUILD CC CC_FOR_BUILD
+        choco feature disable -n=showDownloadProgress
+        cd ..
+        mkdir -p catkin_ws/src
+        mv tesseract_ext catkin_ws/src/
+        cd catkin_ws
+        choco uninstall mingw
+        wget https://raw.githubusercontent.com/johnwason/source_bat/master/source_bat.bash
+        source source_bat.bash 'C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Auxiliary\Build\vcvars64.bat'
+        choco source add -n=ros-win -s="https://roswin.azurewebsites.net/api/v2" --priority=1
+        choco install ros-melodic-ros_base -y --execution-timeout=0
+        choco install clapack
+        choco install openblas
+        choco install console_bridge
+        choco install orocos_kdl
+        source source_bat.bash 'c:\opt\ros\melodic\x64\setup.bat'
+        python -m pip install --upgrade pip
+        rosdep install --from-paths src --ignore-src -r -y
+        /c/opt/vcpkg/vcpkg.exe install jsoncpp:x64-windows
+        /c/opt/vcpkg/vcpkg.exe install eigen3:x64-windows
+        /c/opt/vcpkg/vcpkg.exe install autotools:x64-windows
+        /c/opt/vcpkg/vcpkg.exe install automake:x64-windows
+        wstool init src
+        wstool update -t src
+    fi
+script:
+  - if [ "$TRAVIS_OS_NAME" != "windows" ]; then .ci_config/travis.sh; fi
+  - |
+    if [ "$TRAVIS_OS_NAME" = "windows" ]; then
+        catkin_make_isolated
+    fi
+

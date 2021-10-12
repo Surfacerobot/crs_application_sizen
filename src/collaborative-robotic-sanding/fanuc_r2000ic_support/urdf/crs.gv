@@ -1,0 +1,47 @@
+digraph G {
+node [shape=box];
+"world" [label="world"];
+"base_link" [label="base_link"];
+"base" [label="base"];
+"link_1" [label="link_1"];
+"link_2" [label="link_2"];
+"link_3" [label="link_3"];
+"link_4" [label="link_4"];
+"link_5" [label="link_5"];
+"link_6" [label="link_6"];
+"camera_link_optical" [label="camera_link_optical"];
+"camera_link" [label="camera_link"];
+"gazebo_camera_link" [label="gazebo_camera_link"];
+"tool0" [label="tool0"];
+"ef" [label="ef"];
+"flange" [label="flange"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"world" -> "world_base_link" [label="xyz: -2.5 0 0 \nrpy: 0 -0 0"]
+"world_base_link" -> "base_link"
+"base_link" -> "base_link-base" [label="xyz: 0 0 0.67 \nrpy: 0 -0 0"]
+"base_link-base" -> "base"
+"base_link" -> "joint_1" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"joint_1" -> "link_1"
+"link_1" -> "joint_2" [label="xyz: 0.312 0 0.67 \nrpy: 0 -0 0"]
+"joint_2" -> "link_2"
+"link_2" -> "joint_3" [label="xyz: 0 0 1.075 \nrpy: 0 -0 0"]
+"joint_3" -> "link_3"
+"link_3" -> "joint_4" [label="xyz: 0 0 0.225 \nrpy: 0 -0 0"]
+"joint_4" -> "link_4"
+"link_4" -> "joint_5" [label="xyz: 1.28 0 0 \nrpy: 0 -0 0"]
+"joint_5" -> "link_5"
+"link_5" -> "joint_6" [label="xyz: 0.215 0 0 \nrpy: 0 -0 0"]
+"joint_6" -> "link_6"
+"link_6" -> "camera_optical_joint" [label="xyz: 0.121 0.1797 0.16525 \nrpy: -0.7854 0 0"]
+"camera_optical_joint" -> "camera_link_optical"
+"camera_link_optical" -> "camera_link_joint" [label="xyz: 0 0 0 \nrpy: 0 -1.5708 1.5708"]
+"camera_link_joint" -> "camera_link"
+"camera_link_optical" -> "gazebo_camera_joint" [label="xyz: 0 0 0 \nrpy: 0 -1.5708 1.5708"]
+"gazebo_camera_joint" -> "gazebo_camera_link"
+"link_6" -> "flange-tool0" [label="xyz: 0 0 0 \nrpy: 0 1.5708 -0"]
+"flange-tool0" -> "tool0"
+"tool0" -> "flange-ef" [label="xyz: 0 0 0 \nrpy: -1.22465e-16 -1.22465e-16 3.14159"]
+"flange-ef" -> "ef"
+"link_6" -> "joint_6-flange" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"joint_6-flange" -> "flange"
+}

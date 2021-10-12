@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorProject>
+<!-- Written by QtCreator 4.9.2, 2021-03-04T05:15:26. -->
+<qtcreator>
+ <data>
+  <variable>EnvironmentId</variable>
+  <value type="QByteArray">{84a8c237-496c-4e54-bf6b-5c14e886f85d}</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.ActiveTarget</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.EditorSettings</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="EditorConfiguration.AutoIndent">true</value>
+   <value type="bool" key="EditorConfiguration.AutoSpacesForTabs">false</value>
+   <value type="bool" key="EditorConfiguration.CamelCaseNavigation">true</value>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.0">
+    <value type="QString" key="language">Cpp</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">ROSProject.CppCodeStyle</value>
+    </valuemap>
+   </valuemap>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.1">
+    <value type="QString" key="language">QmlJS</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">QmlJSGlobal</value>
+    </valuemap>
+   </valuemap>
+   <value type="int" key="EditorConfiguration.CodeStyle.Count">2</value>
+   <value type="QByteArray" key="EditorConfiguration.Codec">UTF-8</value>
+   <value type="bool" key="EditorConfiguration.ConstrainTooltips">false</value>
+   <value type="int" key="EditorConfiguration.IndentSize">4</value>
+   <value type="bool" key="EditorConfiguration.KeyboardTooltips">false</value>
+   <value type="int" key="EditorConfiguration.MarginColumn">80</value>
+   <value type="bool" key="EditorConfiguration.MouseHiding">true</value>
+   <value type="bool" key="EditorConfiguration.MouseNavigation">true</value>
+   <value type="int" key="EditorConfiguration.PaddingMode">1</value>
+   <value type="bool" key="EditorConfiguration.ScrollWheelZooming">true</value>
+   <value type="bool" key="EditorConfiguration.ShowMargin">false</value>
+   <value type="int" key="EditorConfiguration.SmartBackspaceBehavior">0</value>
+   <value type="bool" key="EditorConfiguration.SmartSelectionChanging">true</value>
+   <value type="bool" key="EditorConfiguration.SpacesForTabs">true</value>
+   <value type="int" key="EditorConfiguration.TabKeyBehavior">0</value>
+   <value type="int" key="EditorConfiguration.TabSize">8</value>
+   <value type="bool" key="EditorConfiguration.UseGlobal">true</value>
+   <value type="int" key="EditorConfiguration.Utf8BomBehavior">1</value>
+   <value type="bool" key="EditorConfiguration.addFinalNewLine">true</value>
+   <value type="bool" key="EditorConfiguration.cleanIndentation">true</value>
+   <value type="bool" key="EditorConfiguration.cleanWhitespace">true</value>
+   <value type="bool" key="EditorConfiguration.inEntireDocument">false</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.PluginSettings</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey"/>
+   <value type="bool" key="ClangCodeModel.UseGlobalConfig">true</value>
+   <value type="bool" key="ClangTools.BuildBeforeAnalysis">false</value>
+   <valuelist type="QVariantList" key="ClangTools.SelectedDirs"/>
+   <valuelist type="QVariantList" key="ClangTools.SelectedFiles"/>
+   <valuelist type="QVariantList" key="ClangTools.SuppressedDiagnostics"/>
+   <value type="bool" key="ClangTools.UseGlobalSettings">true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{869207e6-0004-4c5d-ad64-794456b11b32}</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory"></value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments">--symlink-install</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">0</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">1</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+     <value type="QString">AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/crs_utils_py:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws/install/crs_gui:/root/crs_ws/install/crs_application:/root/crs_ws/install/crs_motion_planning:/root/crs_ws/install/crs_robot_comms:/root/crs_ws/install/ur_dashboard_msgs:/root/crs_ws/install/tesseract_monitoring:/root/crs_ws/install/tesseract_rosutils:/root/crs_ws/install/tesseract_plugins:/root/crs_ws/install/tesseract_msgs:/root/crs_ws/install/rclcpp_scxml_demos:/root/crs_ws/install/region_detection_rclcpp:/root/crs_ws/install/region_detection_msgs:/root/crs_ws/install/octomap_msgs:/root/crs_ws/install/crs_utils_py:/root/crs_ws/install/crs_toolpath_gen:/root/crs_ws/install/crs_support:/root/crs_ws/install/crs_process_data:/root/crs_ws/install/crs_perception:/root/crs_ws/install/crs_area_selection:/root/crs_ws/install/crs_msgs:/root/crs_ws/install/crs_gazebo_plugins:/root/crs_ws/install/cartesian_trajectory_msgs:/opt/ros/eloquent</value>
+     <value type="QString">CMAKE_MODULE_PATH=/root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco:/root/crs_ws_fanuc/install/tesseract_common/lib/cmake/tesseract_common:/root/crs_ws/install/trajopt_sco/lib/cmake/trajopt_sco:/root/crs_ws/install/tesseract_common/lib/cmake/tesseract_common</value>
+     <value type="QString">CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/bullet3:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_driver:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/industrial_msgs:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/ros/melodic:/root/crs_ws/install/trajopt_tools:/root/crs_ws/install/vhacd:/root/crs_ws/install/crs_gui:/root/crs_ws/install/crs_application:/root/crs_ws/install/crs_motion_planning:/root/crs_ws/install/ur_ikfast_kinematics:/root/crs_ws/install/crs_robot_comms:/root/crs_ws/install/ur_dashboard_msgs:/root/crs_ws/install/trajopt_sqp:/root/crs_ws/install/trajopt_ifopt:/root/crs_ws/install/tesseract_monitoring:/root/crs_ws/install/tesseract_rosutils:/root/crs_ws/install/tesseract_process_planners:/root/crs_ws/install/tesseract_motion_planners:/root/crs_ws/install/trajopt:/root/crs_ws/install/trajopt_sco:/root/crs_ws/install/trajopt_utils:/root/crs_ws/install/tesseract_visualization:/root/crs_ws/install/tesseract:/root/crs_ws/install/tesseract_urdf:/root/crs_ws/install/tesseract_plugins:/root/crs_ws/install/tesseract_environment:/root/crs_ws/install/tesseract_collision:/root/crs_ws/install/tesseract_support:/root/crs_ws/install/tesseract_kinematics:/root/crs_ws/install/tesseract_scene_graph:/root/crs_ws/install/tesseract_msgs:/root/crs_ws/install/tesseract_geometry:/root/crs_ws/install/tesseract_common:/root/crs_ws/install/rclcpp_scxml_demos:/root/crs_ws/install/scxml_core:/root/crs_ws/install/region_detection_rclcpp:/root/crs_ws/install/region_detection_msgs:/root/crs_ws/install/region_detection_core:/root/crs_ws/install/osqp_eigen:/root/crs_ws/install/osqp:/root/crs_ws/install/descartes_opw:/root/crs_ws/install/opw_kinematics:/root/crs_ws/install/octomap_msgs:/root/crs_ws/install/fcl:/root/crs_ws/install/libccd:/root/crs_ws/install/iterative_spline_parameterization:/root/crs_ws/install/ifopt:/root/crs_ws/install/gtest:/root/crs_ws/install/descartes_samplers:/root/crs_ws/install/descartes_ikfast:/root/crs_ws/install/descartes_light:/root/crs_ws/install/crs_toolpath_gen:/root/crs_ws/install/crs_support:/root/crs_ws/install/crs_process_data:/root/crs_ws/install/crs_perception:/root/crs_ws/install/crs_area_selection:/root/crs_ws/install/crs_msgs:/root/crs_ws/install/crs_gazebo_plugins:/root/crs_ws/install/cartesian_trajectory_msgs:/root/crs_ws/install/bullet3:/opt/qt513/lib/cmake:</value>
+     <value type="QString">COLCON_PREFIX_PATH=/root/crs_ws_fanuc/install:/root/crs_ws/install</value>
+     <value type="QString">LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/vhacd/lib:/root/crs_ws_fanuc/install/crs_gui/lib:/root/crs_ws_fanuc/install/crs_application/lib:/root/crs_ws_fanuc/install/crs_motion_planning/lib:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib:/root/crs_ws_fanuc/install/trajopt_sqp/lib:/root/crs_ws_fanuc/install/trajopt_ifopt/lib:/root/crs_ws_fanuc/install/tesseract_monitoring/lib:/root/crs_ws_fanuc/install/tesseract_process_planners/lib:/root/crs_ws_fanuc/install/tesseract_motion_planners/lib:/root/crs_ws_fanuc/install/trajopt/lib:/root/crs_ws_fanuc/install/trajopt_sco/lib:/root/crs_ws_fanuc/install/tesseract/lib:/root/crs_ws_fanuc/install/tesseract_urdf/lib:/root/crs_ws_fanuc/install/tesseract_plugins/lib:/root/crs_ws_fanuc/install/tesseract_environment/lib:/root/crs_ws_fanuc/install/tesseract_collision/lib:/root/crs_ws_fanuc/install/tesseract_kinematics/lib:/root/crs_ws_fanuc/install/tesseract_scene_graph/lib:/root/crs_ws_fanuc/install/osqp_eigen/lib:/root/crs_ws_fanuc/install/osqp/lib:/root/crs_ws_fanuc/install/descartes_opw/lib:/root/crs_ws_fanuc/install/fcl/lib:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/lib:/root/crs_ws_fanuc/install/crs_perception/lib:/root/crs_ws_fanuc/install/crs_gazebo_plugins/lib:/root/crs_ws_fanuc/install/bullet3/lib:/root/crs_ws_fanuc/install/ur_dashboard_msgs/lib:/root/crs_ws_fanuc/install/tesseract_msgs/lib:/root/crs_ws_fanuc/install/region_detection_msgs/lib:/root/crs_ws_fanuc/install/libccd/lib:/root/crs_ws_fanuc/install/ifopt/lib:/root/crs_ws_fanuc/install/crs_area_selection/lib:/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/scxml_core/lib:/root/crs_ws_fanuc/install/region_detection_core/lib:/root/crs_ws_fanuc/install/octomap_msgs/lib:/root/crs_ws_fanuc/install/gtest/lib:/root/crs_ws_fanuc/install/descartes_samplers/lib:/root/crs_ws_fanuc/install/descartes_light/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:/opt/ros/melodic/lib:/root/crs_ws/install/vhacd/lib:/root/crs_ws/install/crs_gui/lib:/root/crs_ws/install/crs_application/lib:/root/crs_ws/install/crs_motion_planning/lib:/root/crs_ws/install/ur_ikfast_kinematics/lib:/root/crs_ws/install/ur_dashboard_msgs/lib:/root/crs_ws/install/trajopt_sqp/lib:/root/crs_ws/install/trajopt_ifopt/lib:/root/crs_ws/install/tesseract_monitoring/lib:/root/crs_ws/install/tesseract_process_planners/lib:/root/crs_ws/install/tesseract_motion_planners/lib:/root/crs_ws/install/trajopt/lib:/root/crs_ws/install/trajopt_sco/lib:/root/crs_ws/install/trajopt_utils/lib:/root/crs_ws/install/tesseract/lib:/root/crs_ws/install/tesseract_urdf/lib:/root/crs_ws/install/tesseract_plugins/lib:/root/crs_ws/install/tesseract_environment/lib:/root/crs_ws/install/tesseract_collision/lib:/root/crs_ws/install/tesseract_kinematics/lib:/root/crs_ws/install/tesseract_scene_graph/lib:/root/crs_ws/install/tesseract_msgs/lib:/root/crs_ws/install/scxml_core/lib:/root/crs_ws/install/region_detection_msgs/lib:/root/crs_ws/install/region_detection_core/lib:/root/crs_ws/install/osqp_eigen/lib:/root/crs_ws/install/osqp/lib:/root/crs_ws/install/descartes_opw/lib:/root/crs_ws/install/octomap_msgs/lib:/root/crs_ws/install/fcl/lib:/root/crs_ws/install/libccd/lib:/root/crs_ws/install/ifopt/lib:/root/crs_ws/install/gtest/lib:/root/crs_ws/install/descartes_samplers/lib:/root/crs_ws/install/descartes_light/lib:/root/crs_ws/install/crs_perception/lib:/root/crs_ws/install/crs_area_selection/lib:/root/crs_ws/install/crs_msgs/lib:/root/crs_ws/install/crs_gazebo_plugins/lib:/root/crs_ws/install/cartesian_trajectory_msgs/lib:/root/crs_ws/install/bullet3/lib:/opt/qt513/plugins:/opt/qt513/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib</value>
+     <value type="QString">PATH=/root/crs_ws_fanuc/install/trajopt_tools/bin:/root/crs_ws_fanuc/install/trajopt_sco/bin:/root/crs_ws_fanuc/install/tesseract_urdf/bin:/root/crs_ws_fanuc/install/tesseract_collision/bin:/root/crs_ws_fanuc/install/tesseract_scene_graph/bin:/root/crs_ws_fanuc/install/tesseract_geometry/bin:/root/crs_ws_fanuc/install/swig/bin:/root/crs_ws_fanuc/install/region_detection_core/bin:/opt/ros/melodic/bin:/root/crs_ws/install/trajopt_tools/bin:/root/crs_ws/install/trajopt_sco/bin:/root/crs_ws/install/tesseract_urdf/bin:/root/crs_ws/install/tesseract_collision/bin:/root/crs_ws/install/tesseract_scene_graph/bin:/root/crs_ws/install/tesseract_geometry/bin:/root/crs_ws/install/swig/bin:/root/crs_ws/install/region_detection_core/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</value>
+     <value type="QString">PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_tools/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_tools/lib/pkgconfig:/root/crs_ws_fanuc/install/vhacd/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/vhacd/lib/pkgconfig:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sqp/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_ifopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_ifopt/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_viewer_python/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_viewer_python/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_python/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_python/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_process_planners/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_process_planners/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_motion_planners/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_motion_planners/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_visualization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_visualization/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_urdf/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_urdf/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_environment/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_environment/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_collision/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_collision/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_support/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_support/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_kinematics/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_scene_graph/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_scene_graph/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_geometry/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_geometry/lib/pkgconfig:/root/crs_ws_fanuc/install/swig/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/swig/lib/pkgconfig:/root/crs_ws_fanuc/install/roscpp_scxml_demos/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp_eigen/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp_eigen/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_opw/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_opw/lib/pkgconfig:/root/crs_ws_fanuc/install/fcl/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fcl/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_resources/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_resources/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/pkgconfig:/root/crs_ws_fanuc/install/bullet3/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/bullet3/lib/pkgconfig:/root/crs_ws_fanuc/install/libccd/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/libccd/lib/pkgconfig:/root/crs_ws_fanuc/install/ifopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/ifopt/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_driver/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_driver/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/tesseract_common/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/tesseract_common/lib/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig:/root/crs_ws_fanuc/install/region_detection_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/region_detection_core/lib/pkgconfig:/root/crs_ws_fanuc/install/orocos_kdl/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/orocos_kdl/lib/pkgconfig:/root/crs_ws_fanuc/install/opw_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/opw_kinematics/lib/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/pkgconfig:/root/crs_ws_fanuc/install/industrial_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/industrial_msgs/lib/pkgconfig:/root/crs_ws_fanuc/install/gtest/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/gtest/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig:/root/crs_ws_fanuc/install/eigen/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/eigen/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig:/root/crs_ws/install/libccd/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/libccd/lib/pkgconfig:/root/crs_ws/install/trajopt_tools/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/trajopt_tools/lib/pkgconfig:/root/crs_ws/install/vhacd/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/vhacd/lib/pkgconfig:/root/crs_ws/install/ur_ikfast_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/ur_ikfast_kinematics/lib/pkgconfig:/root/crs_ws/install/trajopt_sqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/trajopt_sqp/lib/pkgconfig:/root/crs_ws/install/trajopt_ifopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/trajopt_ifopt/lib/pkgconfig:/root/crs_ws/install/tesseract_viewer_python/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_viewer_python/lib/pkgconfig:/root/crs_ws/install/tesseract_python/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_python/lib/pkgconfig:/root/crs_ws/install/tesseract_process_planners/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_process_planners/lib/pkgconfig:/root/crs_ws/install/tesseract_motion_planners/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_motion_planners/lib/pkgconfig:/root/crs_ws/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/trajopt/lib/pkgconfig:/root/crs_ws/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/trajopt_sco/lib/pkgconfig:/root/crs_ws/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/trajopt_utils/lib/pkgconfig:/root/crs_ws/install/tesseract_visualization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_visualization/lib/pkgconfig:/root/crs_ws/install/tesseract/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract/lib/pkgconfig:/root/crs_ws/install/tesseract_urdf/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_urdf/lib/pkgconfig:/root/crs_ws/install/tesseract_environment/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_environment/lib/pkgconfig:/root/crs_ws/install/tesseract_collision/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_collision/lib/pkgconfig:/root/crs_ws/install/tesseract_support/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_support/lib/pkgconfig:/root/crs_ws/install/tesseract_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_kinematics/lib/pkgconfig:/root/crs_ws/install/tesseract_scene_graph/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_scene_graph/lib/pkgconfig:/root/crs_ws/install/tesseract_geometry/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_geometry/lib/pkgconfig:/root/crs_ws/install/tesseract_common/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/tesseract_common/lib/pkgconfig:/root/crs_ws/install/swig/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/swig/lib/pkgconfig:/root/crs_ws/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/scxml_core/lib/pkgconfig:/root/crs_ws/install/region_detection_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/region_detection_core/lib/pkgconfig:/root/crs_ws/install/osqp_eigen/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/osqp_eigen/lib/pkgconfig:/root/crs_ws/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/osqp/lib/pkgconfig:/root/crs_ws/install/orocos_kdl/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/orocos_kdl/lib/pkgconfig:/root/crs_ws/install/descartes_opw/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/descartes_opw/lib/pkgconfig:/root/crs_ws/install/opw_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/opw_kinematics/lib/pkgconfig:/root/crs_ws/install/fcl/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/fcl/lib/pkgconfig:/root/crs_ws/install/iterative_spline_parameterization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/iterative_spline_parameterization/lib/pkgconfig:/root/crs_ws/install/ifopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/ifopt/lib/pkgconfig:/root/crs_ws/install/gtest/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/gtest/lib/pkgconfig:/root/crs_ws/install/descartes_samplers/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/descartes_samplers/lib/pkgconfig:/root/crs_ws/install/descartes_ikfast/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/descartes_ikfast/lib/pkgconfig:/root/crs_ws/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/descartes_light/lib/pkgconfig:/root/crs_ws/install/eigen/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/eigen/lib/pkgconfig:/root/crs_ws/install/bullet3/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws/install/bullet3/lib/pkgconfig</value>
+     <value type="QString">PWD=/root/crs_ws_fanuc</value>
+     <value type="QString">PYTHONPATH=/root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/tesseract_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/build/crs_utils_py:/root/crs_ws_fanuc/install/crs_utils_py/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/octomap_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/industrial_msgs/lib/python3/dist-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/root/crs_ws/install/ur_dashboard_msgs/lib/python3.6/site-packages:/root/crs_ws/install/tesseract_msgs/lib/python3.6/site-packages:/root/crs_ws/install/region_detection_msgs/lib/python3.6/site-packages:/root/crs_ws/install/octomap_msgs/lib/python3.6/site-packages:/root/crs_ws/build/crs_utils_py:/root/crs_ws/install/crs_utils_py/lib/python3.6/site-packages:/root/crs_ws/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages</value>
+     <value type="QString">ROS_PACKAGE_PATH=/root/crs_ws_fanuc/install/fanuc_resources/share:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/share:/root/crs_ws_fanuc/install/fanuc_driver/share:/root/crs_ws_fanuc/install/industrial_msgs/share</value>
+     <value type="QString">SHLVL=96</value>
+     <value type="QString">_=/usr/bin/env</value>
+    </valuelist>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Debug</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSBuildConfiguration</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.BuildSystem">2</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.CMakeBuildType">0</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory"></value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">0</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">1</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSBuildConfiguration</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.BuildSystem">2</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.CMakeBuildType">1</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory"></value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">0</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">1</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Release with Debug Information</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Release with Debug Information</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSBuildConfiguration</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.BuildSystem">2</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.CMakeBuildType">2</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.3">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory"></value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">0</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">1</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Minimum Size Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Minimum Size Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSBuildConfiguration</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.BuildSystem">2</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.CMakeBuildType">3</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.4">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory"></value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">0</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Colcon Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSColconStep</value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.ColconArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSColconStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSColconStep.Target">1</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">User Defined</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">User Defined</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSBuildConfiguration</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.BuildSystem">2</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.CMakeBuildType">4</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.BuildConfigurationCount">5</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.DeployConfiguration.0">
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">0</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Deploy</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">1</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy Configuration</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.DefaultDeployConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.PluginSettings"/>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.0">
+    <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
+    <valuelist type="QVariantList" key="Analyzer.Perf.Events">
+     <value type="QString">cpu-cycles</value>
+    </valuelist>
+    <valuelist type="QVariantList" key="Analyzer.Perf.ExtraArguments"/>
+    <value type="int" key="Analyzer.Perf.Frequency">250</value>
+    <value type="QString" key="Analyzer.Perf.SampleMode">-F</value>
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="int" key="Analyzer.Perf.StackSize">4096</value>
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="QString" key="Analyzer.Valgrind.KCachegrindExecutable">kcachegrind</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Custom Executable</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
+    <value type="QString" key="RunConfiguration.Arguments"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default"></value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.TargetCount</variable>
+  <value type="int">1</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Updater.FileVersion</variable>
+  <value type="int">21</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">21</value>
+ </data>
+</qtcreator>
