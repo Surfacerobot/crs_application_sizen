@@ -342,6 +342,28 @@
 		</actuator>
 	</transmission>
 
+	<transmission name="trans_piston_joint">
+		<type>transmission_interface/SimpleTransmission</type>
+		<joint name="${prefix}piston_joint">
+		    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		</joint>
+		<actuator name="piston_joint_motor">
+		    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		    <mechanicalReduction>1</mechanicalReduction>
+		</actuator>
+	</transmission>
+
+	<transmission name="trans_cylinder_joint">
+		<type>transmission_interface/SimpleTransmission</type>
+		<joint name="${prefix}cylinder_joint">
+		    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		</joint>
+		<actuator name="cylinder_joint_motor">
+		    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		    <mechanicalReduction>1</mechanicalReduction>
+		</actuator>
+	</transmission>
+
     <gazebo reference="${prefix}base_link">
         <selfCollide>true</selfCollide>
     </gazebo>
@@ -435,6 +457,8 @@
           <joint_name>${prefix}joint_4</joint_name>
           <joint_name>${prefix}joint_5</joint_name>
           <joint_name>${prefix}joint_6</joint_name>
+		  <joint_name>${prefix}cylinder_joint</joint_name>
+          <joint_name>${prefix}piston_joint</joint_name>
 
         </plugin>
 
