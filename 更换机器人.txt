@@ -1,0 +1,32 @@
+以下是在crs motion plan 中添加新机器人的操作步骤
+
+一、在程序里加入fanuc对应的机器人模型，参考fanuc_r2000ic_support,其他模型可以在以下网址获得，
+https://github.com/ros-industrial/fanuc
+
+注意，要修改cmakelist和package文件，参照fanuc_r2000ic_support里面的修改。
+
+二、在ur_ikfast_kinemantics包中，
+1、复制头文件 descartes_ikfast_ur10e.h成其他机器的名字，修改里面的参数
+2、将一中下载的机器人的包里的ikfast_solver cpp 文件复制到 src文件夹里，
+3、复制fanuc_ikfast_r2000ic.cpp，并参照里面进行修改。
+
+
+三、在crs_application 包中，
+package 文件
+1、config-> main-> motion_planning 文件夹里，复制 fanuc_mp_config.yaml文件，
+把里面的参数修改成对应的机器人。
+
+2、在launch文件夹目录下，复制 fanuc.launch.xml,load_fanuc_robot_model.launch.xml,把里面的参数修改成对应的机器人。
+在xacro文件里加gazebo
+ef添加
+
+3、在resources的文件目录下，复制crs_fanuc.rviz，修改成对应的机器人。
+
+四、在crs_motion_planning 包里，
+
+1、如果要用新的机器人，在path_planning_utils.cpp里， line 258行，将ur_ikfast_kinematics::Fanucr2000icKinematicsD替换成对应的机器人即可。
+
+xacro /home/sizen/crs_ws_fanuc/install/abb_irb6700_support/share/abb_irb6700_support/urdf/irb6700_200_260.xacro > /home/sizen/crs_ws_fanuc/src/collaborative-robotic-sanding/abb_irb6700_support/urdf/irb6700_200_260.urdf
+
+
+xacro /home/sizen/crs_ws_fanuc/install/fanuc_m20ia_support/share/fanuc_m20ia_support/urdf/m20ia.xacro > /home/sizen/crs_ws_fanuc/install/fanuc_m20ia_support/share/fanuc_m20ia_support/urdf/m20ia.urdf
