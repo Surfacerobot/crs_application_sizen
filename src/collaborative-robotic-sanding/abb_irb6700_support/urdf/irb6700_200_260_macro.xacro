@@ -25,6 +25,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}link_1">
       <visual>
@@ -41,6 +46,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}cylinder">
       <visual>
@@ -57,6 +67,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}piston">
       <visual>
@@ -73,6 +88,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}link_2">
       <visual>
@@ -89,6 +109,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}link_3">
       <visual>
@@ -105,6 +130,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}link_4">
       <visual>
@@ -121,6 +151,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}link_5">
       <visual>
@@ -137,6 +172,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <link name="${prefix}link_6">
       <visual>
@@ -153,6 +193,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="12.93"/>
+        <origin rpy="0 1.57079632679 0" xyz="-0.3059856723 0.0 0.175"/>
+        <inertia ixx="0.421716012238" ixy="0.0" ixz="0.0" iyy="0.421716012238" iyz="0.0" izz="0.036365625"/>
+      </inertial>
     </link>
     <!--add e-e-->
     <link name="${prefix}ef">
@@ -183,6 +228,7 @@
       <child link="${prefix}link_1" />
       <axis xyz="0 0 1" />
       <limit lower="-${radians(170)}" upper="${radians(170)}" effort="0" velocity="${radians(110)}" />
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <joint name="${prefix}joint_2" type="revolute">
       <origin xyz="0.32 0 0" rpy="0 0 0" />
@@ -190,6 +236,7 @@
       <child link="${prefix}link_2" />
       <axis xyz="0 1 0" />
       <limit lower="-${radians(65)}" upper="${radians(85)}" effort="0" velocity="${radians(110)}" />
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <joint name="${prefix}joint_3" type="revolute">
       <origin xyz="0 0 1.125" rpy="0 0 0" />
@@ -197,6 +244,7 @@
       <child link="${prefix}link_3" />
       <axis xyz="0 1 0" />
       <limit lower="-${radians(180)}" upper="${radians(70)}" effort="0" velocity="${radians(110)}" />
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <joint name="${prefix}joint_4" type="revolute">
       <origin xyz="0 0 0.2" rpy="0 0 0" />
@@ -204,6 +252,7 @@
       <child link="${prefix}link_4" />
       <axis xyz="1 0 0" />
       <limit lower="-${radians(300)}" upper="${radians(300)}" effort="0" velocity="${radians(190)}" />
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <joint name="${prefix}joint_5" type="revolute">
       <origin xyz="1.1425 0 0" rpy="0 0 0" />
@@ -211,6 +260,7 @@
       <child link="${prefix}link_5" />
       <axis xyz="0 1 0" />
       <limit lower="-${radians(130)}" upper="${radians(130)}" effort="0" velocity="${radians(150)}" />
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <joint name="${prefix}joint_6" type="revolute">
       <origin xyz="0.2 0 0" rpy="0 0 0" />
@@ -218,8 +268,9 @@
       <child link="${prefix}link_6" />
       <axis xyz="1 0 0" />
       <limit lower="-${radians(360)}" upper="${radians(360)}" effort="0" velocity="${radians(210)}" />
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
-    <joint name="${prefix}cylinder_joint" type="revolute">
+    <joint name="${prefix}cylinder_joint" type="fixed">
       <origin xyz="-0.349 -0.194 -0.142" rpy="0 0 0" />
       <parent link="${prefix}link_1" />
       <child link="${prefix}cylinder" />
@@ -227,7 +278,7 @@
       <mimic joint="${prefix}joint_2" multiplier="-0.25"/>
       <limit lower="-${radians(65*0.25)}" upper="${radians(85*0.25)}" effort="0" velocity="100" />
     </joint>
-    <joint name="${prefix}piston_joint" type="prismatic">
+    <joint name="${prefix}piston_joint" type="fixed">
       <origin xyz="0 0 0" rpy="0.20897 0 -${radians(90)}" />
       <parent link="${prefix}cylinder" />
       <child link="${prefix}piston" />
@@ -445,8 +496,8 @@
 
         <plugin name='gazebo_ros_joint_state_publisher' filename='libgazebo_ros_joint_state_publisher.so'>
           <ros>
-              <namespace>/test</namespace>
-              <argument>joint_states:=joint_states</argument>
+              <namespace>crs</namespace>
+              <argument>--ros-args --remap  joint_states:=${prefix}/joint_states</argument>
 	     
           </ros>
           <update_rate>50</update_rate>
@@ -457,15 +508,15 @@
           <joint_name>${prefix}joint_4</joint_name>
           <joint_name>${prefix}joint_5</joint_name>
           <joint_name>${prefix}joint_6</joint_name>
-		  <joint_name>${prefix}cylinder_joint</joint_name>
-          <joint_name>${prefix}piston_joint</joint_name>
+		      <!--<joint_name>${prefix}cylinder_joint</joint_name>
+          <joint_name>${prefix}piston_joint</joint_name>-->
 
         </plugin>
 
         <plugin name='crs_gazebo_plugins_joint_pose_trajectory' filename='libcrs_gazebo_plugins_joint_pose_trajectory.so'>
             <ros>
               <namespace>sim</namespace>
-              <argument>follow_joint_trajectory:=${prefix}follow_joint_trajectory</argument>
+              <argument>--ros-args --remap follow_joint_trajectory:=${prefix}follow_joint_trajectory</argument>
             </ros>
             <update_rate>20</update_rate>
         </plugin>

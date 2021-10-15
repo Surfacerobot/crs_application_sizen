@@ -38,11 +38,13 @@ def launch_setup(context, *args, **kwargs):
     cmd_dict = {cmd2 : True, cmd3: True, cmd4 : False}
     
     # check if soft link exists
-    gazebo_model_path = os.path.join(os.environ['HOME'],'.gazebo', 'models', 'abb_irb6700_support')
-    crs_model_path = get_package_share_directory('abb_irb6700_support')
-    cmd1 = 'ln -s %s %s'%(crs_model_path, gazebo_model_path)
-    if not os.path.exists(gazebo_model_path):
-        cmd_dict[cmd1] = True        
+    gazebo_model_packages = ['abb_irb6700_support', 'fanuc_r2000ic_support']
+    for gm_pkg in gazebo_model_packages:
+      gazebo_model_path = os.path.join(os.environ['HOME'],'.gazebo', 'models', gm_pkg)
+      crs_model_path = get_package_share_directory(gm_pkg)
+      cmd1 = 'ln -s %s %s'%(crs_model_path, gazebo_model_path)
+      if not os.path.exists(gazebo_model_path):
+          cmd_dict[cmd1] = True        
     
     for cmd, req_ in cmd_dict.items():   
         try:       
@@ -62,19 +64,19 @@ def launch_setup(context, *args, **kwargs):
     )
     
     spawner1 = launch_ros.actions.Node(
-        node_name='spawn_node',
-        #node_namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
+        name='spawn_node',
+        #namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
         package='gazebo_ros',
-        node_executable='spawn_entity.py',
+        executable='spawn_entity.py',
         arguments=['-entity', 'robot', '-x', '0', '-y', '0', '-z', '0', '-file', urdf],
         condition = launch.conditions.IfCondition(launch.substitutions.LaunchConfiguration('sim_robot'))
         )
 
     motion_planning_server = launch_ros.actions.Node(
-        node_executable='crs_motion_planning_motion_planning_server',
+        executable='crs_motion_planning_motion_planning_server',
         package='crs_motion_planning',
-        node_name='motion_planning_server',
-        #node_namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
+        name='motion_planning_server',
+        #namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
 #        prefix= 'xterm -e',
         output='screen',
         parameters=[{
@@ -107,9 +109,9 @@ def launch_setup(context, *args, **kwargs):
     '''
 
     test_process_planner = launch_ros.actions.Node(
-        node_executable='crs_motion_planning_process_planner_test',
+        executable='crs_motion_planning_process_planner_test',
         package='crs_motion_planning',
-        node_name='process_planner_test',
+        name='process_planner_test',
         output='screen',
         parameters=[{'urdf_path': urdf,
         'srdf_path': srdf,
@@ -128,16 +130,16 @@ def launch_setup(context, *args, **kwargs):
         'set_trajopt_verbose': False}])
 
     ur_comms_node = launch_ros.actions.Node(
-        node_executable='crs_robot_comms_ur_comms',
+        executable='crs_robot_comms_ur_comms',
         package='crs_robot_comms',
-        node_name='ur_comms_node',
+        name='ur_comms_node',
         output='screen',
         condition = launch.conditions.UnlessCondition(launch.substitutions.LaunchConfiguration('sim_robot')))
 
     ur_comms_node_sim = launch_ros.actions.Node(
-        node_executable='crs_robot_comms_ur_comms_sim',
+        executable='crs_robot_comms_ur_comms_sim',
         package='crs_robot_comms',
-        node_name='ur_comms_sim_node',
+        name='ur_comms_sim_node',
         output='screen',
         condition = launch.conditions.IfCondition(launch.substitutions.LaunchConfiguration('sim_robot')))
     
@@ -145,10 +147,10 @@ def launch_setup(context, *args, **kwargs):
     return [
         # environment
         launch_ros.actions.Node(
-             node_name = ['env_node'],
-             #node_namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
+             name = ['env_node'],
+             #namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
              package='tesseract_monitoring',
-             node_executable='tesseract_monitoring_environment_node',
+             executable='tesseract_monitoring_environment_node',
              output='screen',
              parameters=[{'use_sim_time': launch.substitutions.LaunchConfiguration('sim_robot'),
              'desc_param': 'robot_description',
